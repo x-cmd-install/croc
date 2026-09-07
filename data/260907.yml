@@ -5,19 +5,19 @@ about:
   head: 2af12a2
   archived: false
   latestVersion: "v11.5.0"
-  collectedAt: 2026-09-07T04:35:43Z
+  collectedAt: 2026-09-07T19:45:59Z
 timeline:
   created: 2017-10-17
   lastCommit: 2026-09-06
   lastRelease: 2026-09-06
 popularity:
-  star: 40259
+  star: 40272
   watcher: 252
-  fork: 1615
+  fork: 1614
   release: 221
   contributor: 144
   pullRequest: 649
-  issue: 628
+  issue: 629
 language:
   Go: 1445875
   TypeScript: 562916
@@ -35,7 +35,7 @@ recent:
     mergedPR: 59
     openPR: 0
     closedIssue: 19
-    openIssue: 1
+    openIssue: 2
     commit: 123
   last60d:
     since: 2026-07-09
@@ -43,7 +43,7 @@ recent:
     mergedPR: 101
     openPR: 0
     closedIssue: 36
-    openIssue: 1
+    openIssue: 2
     commit: 223
   last90d:
     since: 2026-06-09
@@ -51,7 +51,7 @@ recent:
     mergedPR: 112
     openPR: 0
     closedIssue: 46
-    openIssue: 1
+    openIssue: 2
     commit: 246
   last180d:
     since: 2026-03-11
@@ -59,7 +59,7 @@ recent:
     mergedPR: 126
     openPR: 0
     closedIssue: 62
-    openIssue: 1
+    openIssue: 2
     commit: 259
   last360d:
     since: 2025-09-12
@@ -67,7 +67,7 @@ recent:
     mergedPR: 166
     openPR: 0
     closedIssue: 85
-    openIssue: 1
+    openIssue: 2
     commit: 316
   last720d:
     since: 2024-09-17
@@ -75,18 +75,18 @@ recent:
     mergedPR: 192
     openPR: 0
     closedIssue: 146
-    openIssue: 1
+    openIssue: 2
     commit: 471
 total:
   release: 221
   mergedPR: 409
   openPR: 0
   closedIssue: 627
-  openIssue: 1
+  openIssue: 2
   commit: 2476
 ---
 path: /home/runner/.x-repo/github.com/schollz/croc
-collectedAt: 2026-09-07T04:35:45Z
+collectedAt: 2026-09-07T19:46:01Z
 loc:
   Go:
     code: 43245
@@ -294,7 +294,7 @@ checks:
       - 'Info: Project packages its releases by way of GitHub Actions.: .github/workflows/deploy.yml:9'
 ---
 eget:
-  collectedAt: 2026-09-07T04:35:46+00:00
+  collectedAt: 2026-09-07T19:46:02+00:00
   platform:
     darwin/arm64:
       name:  croc_v11.5.0_macOS-ARM64.tar.gz
