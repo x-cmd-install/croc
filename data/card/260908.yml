@@ -5,13 +5,13 @@ about:
   head: 2af12a2
   archived: false
   latestVersion: "v11.5.0"
-  collectedAt: 2026-09-08T01:55:24Z
+  collectedAt: 2026-09-08T04:34:49Z
 timeline:
   created: 2017-10-17
   lastCommit: 2026-09-06
   lastRelease: 2026-09-06
 popularity:
-  star: 40274
+  star: 40275
   watcher: 252
   fork: 1615
   release: 221
@@ -86,7 +86,7 @@ total:
   commit: 2476
 ---
 path: /home/runner/.x-repo/github.com/schollz/croc
-collectedAt: 2026-09-08T01:55:25Z
+collectedAt: 2026-09-08T04:34:52Z
 loc:
   Go:
     code: 43245
