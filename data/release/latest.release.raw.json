@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 10139924,
       "digest": "sha256:194ff6b27ee41f23f720c7431cb5db4772f1abc8abbf7f179e2126a4a9ffa08e",
-      "download_count": 34,
+      "download_count": 38,
       "created_at": "2026-09-06T17:21:47Z",
       "updated_at": "2026-09-06T17:21:47Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.0/croc-web_v11.5.0_Linux-amd64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2069,
       "digest": "sha256:393e01f0fb8f38d6841a2507a508acdece11df78c3f7a48ad8e6a905c4866777",
-      "download_count": 441,
+      "download_count": 530,
       "created_at": "2026-09-06T17:21:50Z",
       "updated_at": "2026-09-06T17:21:50Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.0/croc_v11.5.0_checksums.txt"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 8755479,
       "digest": "sha256:4c6d24c2fc734a5cee02671e26ec18a80f670b2d644553c355ab07a99d252161",
-      "download_count": 31,
+      "download_count": 34,
       "created_at": "2026-09-06T17:21:48Z",
       "updated_at": "2026-09-06T17:21:48Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.0/croc_v11.5.0_Linux-32bit.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 9113678,
       "digest": "sha256:ea040965dec526bd86b756b594a7f3958bbd795a3f7f89d195e8ed836c7bcd6e",
-      "download_count": 625,
+      "download_count": 745,
       "created_at": "2026-09-06T17:21:48Z",
       "updated_at": "2026-09-06T17:21:48Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.0/croc_v11.5.0_Linux-64bit.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 8646285,
       "digest": "sha256:75ff47a19a648038551d25b8a0bbcf29a33005280c9e8b83761981baa3fc1e10",
-      "download_count": 24,
+      "download_count": 26,
       "created_at": "2026-09-06T17:21:48Z",
       "updated_at": "2026-09-06T17:21:48Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.0/croc_v11.5.0_Linux-ARM.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 8247405,
       "digest": "sha256:b0d181d5c41b5c3f97e46c3907170b599e351c80c0f2d8d0ecb8c3bd152d924d",
-      "download_count": 95,
+      "download_count": 110,
       "created_at": "2026-09-06T17:21:48Z",
       "updated_at": "2026-09-06T17:21:49Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.0/croc_v11.5.0_Linux-ARM64.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 8667767,
       "digest": "sha256:f5b4805ee4a28b5bd98b6ad20eeb7b9eabc4a16c457d3ba1b21bce3a28dc916c",
-      "download_count": 16,
+      "download_count": 17,
       "created_at": "2026-09-06T17:21:48Z",
       "updated_at": "2026-09-06T17:21:49Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.0/croc_v11.5.0_Linux-ARMv5.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 8996023,
       "digest": "sha256:73a08663f9ecbbe854aa5fcea9ea36169d49000f6e9422043274eb45772ba928",
-      "download_count": 59,
+      "download_count": 64,
       "created_at": "2026-09-06T17:21:49Z",
       "updated_at": "2026-09-06T17:21:50Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.0/croc_v11.5.0_macOS-64bit.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 8323969,
       "digest": "sha256:641ea6e0f3e6691105a6fa94de426cb43fda88cd7e65b72f143850d6f498f217",
-      "download_count": 91,
+      "download_count": 109,
       "created_at": "2026-09-06T17:21:50Z",
       "updated_at": "2026-09-06T17:21:50Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.0/croc_v11.5.0_macOS-ARM64.tar.gz"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 16329618,
       "digest": "sha256:8815c86afb0223628e0a049dbf52c3e6cd26395eeff3a0e34f30093251bf4ec7",
-      "download_count": 46,
+      "download_count": 48,
       "created_at": "2026-09-06T17:21:50Z",
       "updated_at": "2026-09-06T17:21:50Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.0/croc_v11.5.0_src.tar.gz"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 8839573,
       "digest": "sha256:31db5e7052a4f630975246f021a5ccbf0c0d9f9ae94da9c6e76b31443c85010d",
-      "download_count": 56,
+      "download_count": 62,
       "created_at": "2026-09-06T17:21:47Z",
       "updated_at": "2026-09-06T17:21:47Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.0/croc_v11.5.0_Windows-32bit.zip"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 9027914,
       "digest": "sha256:bd7c40b425d058c36d5dedff91d6577520cef7236703b3e707872b0913f80e30",
-      "download_count": 878,
+      "download_count": 1046,
       "created_at": "2026-09-06T17:21:47Z",
       "updated_at": "2026-09-06T17:21:47Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.0/croc_v11.5.0_Windows-64bit.zip"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 8093711,
       "digest": "sha256:25365576f21667246100d6125e9405397eab3b05227a50401ea493b8b51cc749",
-      "download_count": 51,
+      "download_count": 56,
       "created_at": "2026-09-06T17:21:47Z",
       "updated_at": "2026-09-06T17:21:47Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.0/croc_v11.5.0_Windows-ARM64.zip"
@@ -834,8 +834,8 @@
   "body": "## What's Changed\n* fix: convert spaces to dashes (web) by @Akhil373 in https://github.com/schollz/croc/pull/1319\n* fix: improve ux by @schollz in https://github.com/schollz/croc/pull/1321\n\n\n**Full Changelog**: https://github.com/schollz/croc/compare/v11.4.0...v11.5.0",
   "reactions": {
     "url": "https://api.github.com/repos/schollz/croc/releases/383661003/reactions",
-    "total_count": 9,
-    "+1": 7,
+    "total_count": 10,
+    "+1": 8,
     "-1": 0,
     "laugh": 0,
     "hooray": 1,
