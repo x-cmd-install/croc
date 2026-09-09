@@ -2,28 +2,28 @@ about:
   description: "Easily and securely send things from one computer to another :crocodile: :package:"
   license: MIT
   homepage: https://getcroc.com
-  head: b6f27da
+  head: d43e89a
   archived: false
-  latestVersion: "v11.5.1"
-  latestRelease: "v11.5.1"
+  latestVersion: "v11.5.2"
+  latestRelease: "v11.5.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T04:41:15Z
+  collectedAt: 2026-09-09T18:57:31Z
 timeline:
   created: 2017-10-17
-  lastCommit: 2026-09-08
-  lastVersion: 2026-09-08
-  lastRelease: 2026-09-08
+  lastCommit: 2026-09-09
+  lastVersion: 2026-09-09
+  lastRelease: 2026-09-09
   lastPrerelease: 
 popularity:
-  star: 40281
+  star: 40282
   watcher: 252
   fork: 1615
-  release: 222
+  release: 223
   contributor: 144
-  pullRequest: 650
+  pullRequest: 653
   issue: 630
 language:
-  Go: 1460481
+  Go: 1465988
   TypeScript: 563044
   CSS: 78821
   Shell: 37941
@@ -31,71 +31,71 @@ language:
   HTML: 21652
   Dockerfile: 1405
   Makefile: 821
-totalBytes: 2190745
+totalBytes: 2196252
 recent:
   last30d:
     since: 2026-08-10
-    release: 21
-    mergedPR: 58
-    openPR: 0
+    release: 22
+    mergedPR: 59
+    openPR: 1
     closedIssue: 18
     openIssue: 2
-    commit: 128
+    commit: 130
   last60d:
     since: 2026-07-11
-    release: 28
-    mergedPR: 102
-    openPR: 0
+    release: 29
+    mergedPR: 103
+    openPR: 1
     closedIssue: 36
     openIssue: 2
-    commit: 228
+    commit: 230
   last90d:
     since: 2026-06-11
-    release: 38
-    mergedPR: 113
-    openPR: 0
+    release: 39
+    mergedPR: 114
+    openPR: 1
     closedIssue: 47
     openIssue: 2
-    commit: 251
+    commit: 253
   last180d:
     since: 2026-03-13
-    release: 39
-    mergedPR: 127
-    openPR: 0
+    release: 40
+    mergedPR: 128
+    openPR: 1
     closedIssue: 63
     openIssue: 2
-    commit: 264
+    commit: 266
   last360d:
     since: 2025-09-14
-    release: 47
-    mergedPR: 167
-    openPR: 0
+    release: 48
+    mergedPR: 168
+    openPR: 1
     closedIssue: 86
     openIssue: 2
-    commit: 321
+    commit: 323
   last720d:
     since: 2024-09-19
-    release: 57
-    mergedPR: 193
-    openPR: 0
+    release: 58
+    mergedPR: 194
+    openPR: 1
     closedIssue: 146
     openIssue: 2
-    commit: 475
+    commit: 478
 total:
-  release: 222
-  mergedPR: 410
-  openPR: 0
+  release: 223
+  mergedPR: 411
+  openPR: 1
   closedIssue: 628
   openIssue: 2
-  commit: 2482
+  commit: 2485
 ---
 path: /home/runner/.x-repo/github.com/schollz/croc
-collectedAt: 2026-09-09T04:41:18Z
+collectedAt: 2026-09-09T18:57:33Z
 loc:
   Go:
-    code: 43638
-    comments: 2253
-    blanks: 4336
+    code: 43798
+    comments: 2255
+    blanks: 4341
     files: 188
   TypeScript:
     code: 9769
@@ -158,27 +158,27 @@ loc:
     blanks: 170
     files: 4
 total:
-  code: 67659
-  comments: 5927
-  blanks: 6714
+  code: 67819
+  comments: 5929
+  blanks: 6719
   files: 286
 ---
-date: "2026-08-24"
+date: "2026-09-07"
 repo:
   name: github.com/schollz/croc
-  commit: 875da5fa26eac96266fdf2b0e6db4754bbaebf5d
+  commit: b6f27da9401f2c3647c1adb6b77a46bb8c0923d2
 scorecard:
-  version: v5.5.1-0.20260815060127-d1fab88f5463
-  commit: d1fab88f54636ff366076edfc5c239f97b3c8e66
+  version: v5.5.0
+  commit: c395761df6afe1a69e476bc60a013a94bcbc153f
 score: 5
 checks:
   - name: Code-Review
     score: 0
-    reason: Found 1/30 approved changesets -- score normalized to 0
+    reason: Found 2/21 approved changesets -- score normalized to 0
     details: null
   - name: Maintained
     score: 10
-    reason: 30 commit(s) and 18 issue activity found in the last 90 days -- score normalized to 10
+    reason: 30 commit(s) and 22 issue activity found in the last 90 days -- score normalized to 10
     details: null
   - name: Security-Policy
     score: 9
@@ -209,32 +209,32 @@ checks:
     score: 0
     reason: no effort to earn an OpenSSF best practices badge detected
     details: null
+  - name: Fuzzing
+    score: 10
+    reason: project is fuzzed
+    details:
+      - 'Info: GoBuiltInFuzzer integration found: src/receivefs/path_test.go:107'
+      - 'Info: GoBuiltInFuzzer integration found: src/receivefs/path_test.go:126'
+      - 'Info: GoBuiltInFuzzer integration found: src/utils/utils_test.go:775'
   - name: License
     score: 10
     reason: license file detected
     details:
       - 'Info: project has a license file: LICENSE:0'
       - 'Info: FSF or OSI recognized license: MIT License: LICENSE:0'
-  - name: Fuzzing
-    score: 10
-    reason: project is fuzzed
-    details:
-      - 'Info: GoBuiltInFuzzer integration found: src/receivefs/path_test.go:63'
-      - 'Info: GoBuiltInFuzzer integration found: src/receivefs/path_test.go:82'
-      - 'Info: GoBuiltInFuzzer integration found: src/utils/utils_test.go:748'
   - name: Pinned-Dependencies
     score: 1
     reason: dependency not pinned by hash detected -- score normalized to 1
     details:
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:23: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:26: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:50: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:53: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:74: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:77: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:95: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:98: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:143: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:27: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:30: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:60: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:63: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:93: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:96: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:114: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:117: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:175: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/ci.yml/main?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/deploy.yml:13: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/deploy.yml/main?enable=pin'
       - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/deploy.yml:17: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/deploy.yml/main?enable=pin'
       - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/deploy.yml:29: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/deploy.yml/main?enable=pin'
@@ -261,7 +261,7 @@ checks:
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/release.yml:498: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/release.yml/main?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/release.yml:504: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/release.yml/main?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/stale.yml:16: update your workflow using https://app.stepsecurity.io/secureworkflow/schollz/croc/stale.yml/main?enable=pin'
-      - 'Warn: containerImage not pinned by hash: Dockerfile:2: pin your Docker image by updating golang:1.27-alpine to golang:1.27-alpine@sha256:4c9fe60190a2a3350ddc51de80d0224b8a6698d12bdfc999fee45ea9d6c46dbc'
+      - 'Warn: containerImage not pinned by hash: Dockerfile:2: pin your Docker image by updating golang:1.27-alpine to golang:1.27-alpine@sha256:cf6fca6641884b8433441b2b0652976f975e1d0fdd26d177eaaf8596087f3125'
       - 'Warn: containerImage not pinned by hash: Dockerfile:27: pin your Docker image by updating alpine:latest to alpine:latest@sha256:28bd5fe8b56d1bd048e5babf5b10710ebe0bae67db86916198a6eec434943f8b'
       - 'Info:   0 out of  28 GitHub-owned GitHubAction dependencies pinned'
       - 'Info:   0 out of   7 third-party GitHubAction dependencies pinned'
@@ -276,25 +276,25 @@ checks:
     score: 0
     reason: Project has not signed or included provenance with any releases.
     details:
-      - 'Warn: release artifact v11.3.2 not signed: https://api.github.com/repos/schollz/croc/releases/376299392'
-      - 'Warn: release artifact v11.3.1 not signed: https://api.github.com/repos/schollz/croc/releases/376278422'
-      - 'Warn: release artifact v11.3.0 not signed: https://api.github.com/repos/schollz/croc/releases/375740250'
-      - 'Warn: release artifact v11.2.5 not signed: https://api.github.com/repos/schollz/croc/releases/374988681'
-      - 'Warn: release artifact v11.2.4 not signed: https://api.github.com/repos/schollz/croc/releases/373912985'
-      - 'Warn: release artifact v11.3.2 does not have provenance: https://api.github.com/repos/schollz/croc/releases/376299392'
-      - 'Warn: release artifact v11.3.1 does not have provenance: https://api.github.com/repos/schollz/croc/releases/376278422'
-      - 'Warn: release artifact v11.3.0 does not have provenance: https://api.github.com/repos/schollz/croc/releases/375740250'
-      - 'Warn: release artifact v11.2.5 does not have provenance: https://api.github.com/repos/schollz/croc/releases/374988681'
-      - 'Warn: release artifact v11.2.4 does not have provenance: https://api.github.com/repos/schollz/croc/releases/373912985'
+      - 'Warn: release artifact v11.5.1 not signed: https://api.github.com/repos/schollz/croc/releases/384768307'
+      - 'Warn: release artifact v11.5.0 not signed: https://api.github.com/repos/schollz/croc/releases/383661003'
+      - 'Warn: release artifact v11.4.0 not signed: https://api.github.com/repos/schollz/croc/releases/382370859'
+      - 'Warn: release artifact v11.3.6 not signed: https://api.github.com/repos/schollz/croc/releases/379171574'
+      - 'Warn: release artifact v11.3.5 not signed: https://api.github.com/repos/schollz/croc/releases/378916242'
+      - 'Warn: release artifact v11.5.1 does not have provenance: https://api.github.com/repos/schollz/croc/releases/384768307'
+      - 'Warn: release artifact v11.5.0 does not have provenance: https://api.github.com/repos/schollz/croc/releases/383661003'
+      - 'Warn: release artifact v11.4.0 does not have provenance: https://api.github.com/repos/schollz/croc/releases/382370859'
+      - 'Warn: release artifact v11.3.6 does not have provenance: https://api.github.com/repos/schollz/croc/releases/379171574'
+      - 'Warn: release artifact v11.3.5 does not have provenance: https://api.github.com/repos/schollz/croc/releases/378916242'
   - name: SAST
     score: 0
     reason: SAST tool is not run on all commits -- score normalized to 0
     details:
-      - 'Warn: 0 commits out of 10 are checked with a SAST tool'
+      - 'Warn: 0 commits out of 20 are checked with a SAST tool'
   - name: Packaging
     score: 10
     reason: packaging workflow detected
     details:
       - 'Info: Project packages its releases by way of GitHub Actions.: .github/workflows/deploy.yml:9'
 ---
-{"id":384768307,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOBmURac4W7xkz","tag_name":"v11.5.1","target_commitish":"main","name":"v11.5.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-09-08T13:45:47Z","updated_at":"2026-09-08T13:49:07Z","published_at":"2026-09-08T13:49:07Z","assets":[{"id":550590973,"node_id":"RA_kwDOBmURac4g0Vn9","name":"croc-web_v11.5.1_Linux-amd64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":10133226,"digest":"sha256:a40b4ea70773ef728490a8f8ec9118437db255f0d05c226ad45c093f958c9321","download_count":20,"created_at":"2026-09-08T13:48:00Z","updated_at":"2026-09-08T13:48:01Z"},{"id":550591146,"node_id":"RA_kwDOBmURac4g0Vqq","name":"croc_v11.5.1_checksums.txt","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"text/plain; charset=utf-8","state":"uploaded","size":2069,"digest":"sha256:d9b20ec60bc36d2a024db087a7f0437e7ef46d6cad1a2bf6b1305231b44107db","download_count":187,"created_at":"2026-09-08T13:48:04Z","updated_at":"2026-09-08T13:48:04Z"},{"id":550590975,"node_id":"RA_kwDOBmURac4g0Vn_","name":"croc_v11.5.1_DragonFlyBSD-64bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":4068099,"digest":"sha256:d9f99a1b6eb35b48ff9ba1a1017c08fe66903760dd5c4983a31fc82ea5ff9f13","download_count":11,"created_at":"2026-09-08T13:48:01Z","updated_at":"2026-09-08T13:48:01Z"},{"id":550591005,"node_id":"RA_kwDOBmURac4g0Vod","name":"croc_v11.5.1_FreeBSD-64bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8783452,"digest":"sha256:f21a2c625f45b705d6d053894d6220ccd649a627296e6a3dd4e16d7aaa4b0090","download_count":11,"created_at":"2026-09-08T13:48:01Z","updated_at":"2026-09-08T13:48:02Z"},{"id":550591009,"node_id":"RA_kwDOBmURac4g0Voh","name":"croc_v11.5.1_FreeBSD-ARM64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":7946017,"digest":"sha256:57f880110413c5336d0446ad2e9ddbcd053126e39c35921244080a6b40a01372","download_count":11,"created_at":"2026-09-08T13:48:02Z","updated_at":"2026-09-08T13:48:02Z"},{"id":550591010,"node_id":"RA_kwDOBmURac4g0Voi","name":"croc_v11.5.1_Linux-32bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8756587,"digest":"sha256:400177fca8f7ddba6b7cd86237d713b851391a8e62166c902667d48bca79dd1a","download_count":22,"created_at":"2026-09-08T13:48:02Z","updated_at":"2026-09-08T13:48:03Z"},{"id":550591018,"node_id":"RA_kwDOBmURac4g0Voq","name":"croc_v11.5.1_Linux-64bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":9114946,"digest":"sha256:402f72463581e4665e9e1611e8304709baa09b02104c53f8dce9a56532f9bc6d","download_count":245,"created_at":"2026-09-08T13:48:02Z","updated_at":"2026-09-08T13:48:02Z"},{"id":550591022,"node_id":"RA_kwDOBmURac4g0Vou","name":"croc_v11.5.1_Linux-ARM.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8648676,"digest":"sha256:e7f00f8914b6587169afe97861b8f5891d719827b75c80195bcb7f74cd0c5fdd","download_count":15,"created_at":"2026-09-08T13:48:02Z","updated_at":"2026-09-08T13:48:02Z"},{"id":550591060,"node_id":"RA_kwDOBmURac4g0VpU","name":"croc_v11.5.1_Linux-ARM64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8247415,"digest":"sha256:ef4f3f13f67e9f4e982fde02deab1f080f65e59b68136d67e3bcbe2fbabd9446","download_count":49,"created_at":"2026-09-08T13:48:02Z","updated_at":"2026-09-08T13:48:03Z"},{"id":550591064,"node_id":"RA_kwDOBmURac4g0VpY","name":"croc_v11.5.1_Linux-ARMv5.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8669661,"digest":"sha256:5d9f4d1227217f2f77fb5e8f9d0564d546ccc5b40a28b889690a5f4212473168","download_count":11,"created_at":"2026-09-08T13:48:03Z","updated_at":"2026-09-08T13:48:03Z"},{"id":550591077,"node_id":"RA_kwDOBmURac4g0Vpl","name":"croc_v11.5.1_Linux-RISCV64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8586141,"digest":"sha256:de3edcda0183b80060543604522ccbdbbf0bd69350a7d02fbf281ba292e890cb","download_count":7,"created_at":"2026-09-08T13:48:03Z","updated_at":"2026-09-08T13:48:03Z"},{"id":550591119,"node_id":"RA_kwDOBmURac4g0VqP","name":"croc_v11.5.1_macOS-64bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8999696,"digest":"sha256:57e9ecb18057040e61409b329a02de67df782339e04176fc8b75083b71e9e9d3","download_count":36,"created_at":"2026-09-08T13:48:04Z","updated_at":"2026-09-08T13:48:04Z"},{"id":550591133,"node_id":"RA_kwDOBmURac4g0Vqd","name":"croc_v11.5.1_macOS-ARM64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8327840,"digest":"sha256:8ad55888608d0919ac8c4f0236b8b3572758cb77ff1e9a2e016b946a0739a133","download_count":40,"created_at":"2026-09-08T13:48:04Z","updated_at":"2026-09-08T13:48:04Z"},{"id":550591082,"node_id":"RA_kwDOBmURac4g0Vpq","name":"croc_v11.5.1_NetBSD-32bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":3975341,"digest":"sha256:b6f8dbe58d98a2054fcc78ffe529427b5d09ace7cbf9135b93a2a9b8fe8cec7a","download_count":8,"created_at":"2026-09-08T13:48:03Z","updated_at":"2026-09-08T13:48:03Z"},{"id":550591087,"node_id":"RA_kwDOBmURac4g0Vpv","name":"croc_v11.5.1_NetBSD-64bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":4064915,"digest":"sha256:1afea5f06bd68897c93671d25a2595c08755d74f15f4bf556d450f2d1d64d924","download_count":9,"created_at":"2026-09-08T13:48:03Z","updated_at":"2026-09-08T13:48:03Z"},{"id":550591092,"node_id":"RA_kwDOBmURac4g0Vp0","name":"croc_v11.5.1_NetBSD-ARM64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":3653211,"digest":"sha256:7085ccf61f0242426e84c607c896fccba3003d1ec417cd8132d3abf951fbe672","download_count":14,"created_at":"2026-09-08T13:48:03Z","updated_at":"2026-09-08T13:48:04Z"},{"id":550591105,"node_id":"RA_kwDOBmURac4g0VqB","name":"croc_v11.5.1_OpenBSD-64bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8775160,"digest":"sha256:09eab4f16b5fdafefd523b6b76a7da474ca549f3a974ff08b3118586b4b985bf","download_count":10,"created_at":"2026-09-08T13:48:03Z","updated_at":"2026-09-08T13:48:04Z"},{"id":550591108,"node_id":"RA_kwDOBmURac4g0VqE","name":"croc_v11.5.1_OpenBSD-ARM64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":7940213,"digest":"sha256:89de64baba57e3f6ef75d15735ec4bc8e2393ad36a8f934445d7e461faec5eb7","download_count":9,"created_at":"2026-09-08T13:48:03Z","updated_at":"2026-09-08T13:48:04Z"},{"id":550591136,"node_id":"RA_kwDOBmURac4g0Vqg","name":"croc_v11.5.1_src.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":16352582,"digest":"sha256:89db18cb838a02d65d8863b67d26f7ad74eb8cde15dc56b71a8b83a3b6a5be33","download_count":12,"created_at":"2026-09-08T13:48:04Z","updated_at":"2026-09-08T13:48:05Z"},{"id":550590982,"node_id":"RA_kwDOBmURac4g0VoG","name":"croc_v11.5.1_Windows-32bit.zip","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":8840456,"digest":"sha256:6f60fa353c492d620c86906157199e5ae5ab14b94ee0389b40adf2e569ef7ce6","download_count":52,"created_at":"2026-09-08T13:48:01Z","updated_at":"2026-09-08T13:48:01Z"},{"id":550590972,"node_id":"RA_kwDOBmURac4g0Vn8","name":"croc_v11.5.1_Windows-64bit.zip","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":9029392,"digest":"sha256:41b5e0b4b627b7f79b3262405708173ce4b488eedbc13f2569f8b54c2af9d1b1","download_count":315,"created_at":"2026-09-08T13:48:00Z","updated_at":"2026-09-08T13:48:01Z"},{"id":550590971,"node_id":"RA_kwDOBmURac4g0Vn7","name":"croc_v11.5.1_Windows-ARM64.zip","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":8095524,"digest":"sha256:09d90b84d155544c79aef8c8599c52796500a72287718cddddede850d0a59e98","download_count":26,"created_at":"2026-09-08T13:48:00Z","updated_at":"2026-09-08T13:48:01Z"}],"body":"## What's Changed\n* fix: resolve relay hostnames through SOCKS5 proxies by @schollz in https://github.com/schollz/croc/pull/1324\n\n\n**Full Changelog**: https://github.com/schollz/croc/compare/v11.5.0...v11.5.1","reactions":{"total_count":4,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":4,"rocket":0,"eyes":0},"mentions_count":1}
+{"id":385419212,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOBmURac4W-QfM","tag_name":"v11.5.2","target_commitish":"main","name":"v11.5.2","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-09-09T10:22:53Z","updated_at":"2026-09-09T10:26:05Z","published_at":"2026-09-09T10:26:05Z","assets":[{"id":552527629,"node_id":"RA_kwDOBmURac4g7ucN","name":"croc-web_v11.5.2_Linux-amd64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":10136721,"digest":"sha256:4da6a7ff1bd33a7180fc9b08e37cbc5df5e53a5ef67bc55035aa52c421587bd5","download_count":8,"created_at":"2026-09-09T10:25:04Z","updated_at":"2026-09-09T10:25:05Z"},{"id":552527741,"node_id":"RA_kwDOBmURac4g7ud9","name":"croc_v11.5.2_checksums.txt","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"text/plain; charset=utf-8","state":"uploaded","size":2069,"digest":"sha256:f949964c36804efbc345107278c4674a4ad6eca99a45660066cdea9fb31309dc","download_count":162,"created_at":"2026-09-09T10:25:08Z","updated_at":"2026-09-09T10:25:08Z"},{"id":552527628,"node_id":"RA_kwDOBmURac4g7ucM","name":"croc_v11.5.2_DragonFlyBSD-64bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":4068122,"digest":"sha256:103fd62ec2b3cff670b0f031288f72244c9120f18668a986af6f28f20f45d65f","download_count":7,"created_at":"2026-09-09T10:25:04Z","updated_at":"2026-09-09T10:25:04Z"},{"id":552527640,"node_id":"RA_kwDOBmURac4g7ucY","name":"croc_v11.5.2_FreeBSD-64bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8783566,"digest":"sha256:0a921007ebc20af3ffbc0bd09f5c112382bea2bd63cc03aeca1c9aa98b5360b5","download_count":7,"created_at":"2026-09-09T10:25:05Z","updated_at":"2026-09-09T10:25:06Z"},{"id":552527649,"node_id":"RA_kwDOBmURac4g7uch","name":"croc_v11.5.2_FreeBSD-ARM64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":7945014,"digest":"sha256:c18ccf54cf52b92d368be49e98d3f51a4b0250a99fd99ed88d9d0790fbb12aeb","download_count":7,"created_at":"2026-09-09T10:25:05Z","updated_at":"2026-09-09T10:25:06Z"},{"id":552527648,"node_id":"RA_kwDOBmURac4g7ucg","name":"croc_v11.5.2_Linux-32bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8756268,"digest":"sha256:f49fbb16dc70ec95972f1828e16ab3ce4ce3ec01a7bffc234d182f4358f4cdfd","download_count":10,"created_at":"2026-09-09T10:25:05Z","updated_at":"2026-09-09T10:25:06Z"},{"id":552527650,"node_id":"RA_kwDOBmURac4g7uci","name":"croc_v11.5.2_Linux-64bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":9114353,"digest":"sha256:8048f12941c68ccb1f35812a73e18b14fd39278c23fa73efca6b0478003f6fc1","download_count":206,"created_at":"2026-09-09T10:25:05Z","updated_at":"2026-09-09T10:25:06Z"},{"id":552527646,"node_id":"RA_kwDOBmURac4g7uce","name":"croc_v11.5.2_Linux-ARM.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8648494,"digest":"sha256:2ed49c31cdbc6a971ca27dbc9054fce175138cbc7d0d3215c94538fc996d03b8","download_count":6,"created_at":"2026-09-09T10:25:05Z","updated_at":"2026-09-09T10:25:06Z"},{"id":552527675,"node_id":"RA_kwDOBmURac4g7uc7","name":"croc_v11.5.2_Linux-ARM64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8246733,"digest":"sha256:fdfcf43db90c677a6c730b6167f847e629ec65bd8ba8ee413b2ddb4a9a27998b","download_count":24,"created_at":"2026-09-09T10:25:06Z","updated_at":"2026-09-09T10:25:07Z"},{"id":552527678,"node_id":"RA_kwDOBmURac4g7uc-","name":"croc_v11.5.2_Linux-ARMv5.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8669981,"digest":"sha256:ff706295b9b50dcb89f38fb0c42a8d0a09d0bcb7c2d65c8546405a09b4db4526","download_count":4,"created_at":"2026-09-09T10:25:06Z","updated_at":"2026-09-09T10:25:07Z"},{"id":552527683,"node_id":"RA_kwDOBmURac4g7udD","name":"croc_v11.5.2_Linux-RISCV64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8586323,"digest":"sha256:ba61ece0d3a92ad887f66e57bcacf6fc8bbfeba5c0cbe437b596896fb792e000","download_count":6,"created_at":"2026-09-09T10:25:06Z","updated_at":"2026-09-09T10:25:07Z"},{"id":552527710,"node_id":"RA_kwDOBmURac4g7ude","name":"croc_v11.5.2_macOS-64bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8999780,"digest":"sha256:d1e9c0c2f5913cef15d02cc5d228fa401716e28d8c4cde0789b11a97127200c4","download_count":14,"created_at":"2026-09-09T10:25:07Z","updated_at":"2026-09-09T10:25:08Z"},{"id":552527707,"node_id":"RA_kwDOBmURac4g7udb","name":"croc_v11.5.2_macOS-ARM64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8327745,"digest":"sha256:5978629888393d577cd7dfa4bff9b2c512586511286b82e3e8b4ea9809ac8ed3","download_count":24,"created_at":"2026-09-09T10:25:07Z","updated_at":"2026-09-09T10:25:08Z"},{"id":552527684,"node_id":"RA_kwDOBmURac4g7udE","name":"croc_v11.5.2_NetBSD-32bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":3976072,"digest":"sha256:75c31aef83f7d3e13f4616b4a43b4e0045119bc53e7ac59b55edd25d636c5a68","download_count":4,"created_at":"2026-09-09T10:25:06Z","updated_at":"2026-09-09T10:25:07Z"},{"id":552527686,"node_id":"RA_kwDOBmURac4g7udG","name":"croc_v11.5.2_NetBSD-64bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":4065512,"digest":"sha256:a11ba62f81a5030cb4355ac2ac82f1c2db189be761f3441680cfbf2c2a2339d9","download_count":7,"created_at":"2026-09-09T10:25:06Z","updated_at":"2026-09-09T10:25:07Z"},{"id":552527696,"node_id":"RA_kwDOBmURac4g7udQ","name":"croc_v11.5.2_NetBSD-ARM64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":3654389,"digest":"sha256:75f0a200c9b51fd0e4cb1a912b94da98c3cfef63766fe67242783b2ca74ecc31","download_count":7,"created_at":"2026-09-09T10:25:07Z","updated_at":"2026-09-09T10:25:07Z"},{"id":552527699,"node_id":"RA_kwDOBmURac4g7udT","name":"croc_v11.5.2_OpenBSD-64bit.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":8773134,"digest":"sha256:32b9bccf2e4a279638c5698e50a94e1fbf1ce90c4e8ab6e359c5309e6ab348cc","download_count":7,"created_at":"2026-09-09T10:25:07Z","updated_at":"2026-09-09T10:25:08Z"},{"id":552527706,"node_id":"RA_kwDOBmURac4g7uda","name":"croc_v11.5.2_OpenBSD-ARM64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":7940356,"digest":"sha256:2ea8069f4c9d1662de4a7d87a5c8f2aeac8d24abd9e833f2f9616a2b84ac6508","download_count":7,"created_at":"2026-09-09T10:25:07Z","updated_at":"2026-09-09T10:25:08Z"},{"id":552527720,"node_id":"RA_kwDOBmURac4g7udo","name":"croc_v11.5.2_src.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":16349913,"digest":"sha256:9c7f6209c8a8d8ce5984d18277c71602807a924338f89d405134c540e24bf2c3","download_count":10,"created_at":"2026-09-09T10:25:07Z","updated_at":"2026-09-09T10:25:08Z"},{"id":552527626,"node_id":"RA_kwDOBmURac4g7ucK","name":"croc_v11.5.2_Windows-32bit.zip","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":8840520,"digest":"sha256:8262ca2e4508d8fd96c0866e322a17fc5c5405f0016676db2ff3a358cf987ff3","download_count":21,"created_at":"2026-09-09T10:25:04Z","updated_at":"2026-09-09T10:25:05Z"},{"id":552527632,"node_id":"RA_kwDOBmURac4g7ucQ","name":"croc_v11.5.2_Windows-64bit.zip","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":9029537,"digest":"sha256:31878a23577e6dbc564b55750835ee1374d4ba8b4202bb1fd9840f5b33ec67ca","download_count":193,"created_at":"2026-09-09T10:25:04Z","updated_at":"2026-09-09T10:25:05Z"},{"id":552527627,"node_id":"RA_kwDOBmURac4g7ucL","name":"croc_v11.5.2_Windows-ARM64.zip","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":8097880,"digest":"sha256:3c27a8cc3e5853218bc7d1137d9a7cc0afdce8ca976d7930d8ddd688ad45bc7b","download_count":23,"created_at":"2026-09-09T10:25:04Z","updated_at":"2026-09-09T10:25:05Z"}],"body":"## What's Changed\n* fix: text sending by @schollz in https://github.com/schollz/croc/pull/1327\n\n\n**Full Changelog**: https://github.com/schollz/croc/compare/v11.5.1...v11.5.2","mentions_count":1}
