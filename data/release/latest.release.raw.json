@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 10136721,
       "digest": "sha256:4da6a7ff1bd33a7180fc9b08e37cbc5df5e53a5ef67bc55035aa52c421587bd5",
-      "download_count": 30,
+      "download_count": 31,
       "created_at": "2026-09-09T10:25:04Z",
       "updated_at": "2026-09-09T10:25:05Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.2/croc-web_v11.5.2_Linux-amd64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2069,
       "digest": "sha256:f949964c36804efbc345107278c4674a4ad6eca99a45660066cdea9fb31309dc",
-      "download_count": 454,
+      "download_count": 455,
       "created_at": "2026-09-09T10:25:08Z",
       "updated_at": "2026-09-09T10:25:08Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.2/croc_v11.5.2_checksums.txt"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 9114353,
       "digest": "sha256:8048f12941c68ccb1f35812a73e18b14fd39278c23fa73efca6b0478003f6fc1",
-      "download_count": 665,
+      "download_count": 668,
       "created_at": "2026-09-09T10:25:05Z",
       "updated_at": "2026-09-09T10:25:06Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.2/croc_v11.5.2_Linux-64bit.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 8327745,
       "digest": "sha256:5978629888393d577cd7dfa4bff9b2c512586511286b82e3e8b4ea9809ac8ed3",
-      "download_count": 97,
+      "download_count": 98,
       "created_at": "2026-09-09T10:25:07Z",
       "updated_at": "2026-09-09T10:25:08Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.2/croc_v11.5.2_macOS-ARM64.tar.gz"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 9029537,
       "digest": "sha256:31878a23577e6dbc564b55750835ee1374d4ba8b4202bb1fd9840f5b33ec67ca",
-      "download_count": 924,
+      "download_count": 933,
       "created_at": "2026-09-09T10:25:04Z",
       "updated_at": "2026-09-09T10:25:05Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.2/croc_v11.5.2_Windows-64bit.zip"

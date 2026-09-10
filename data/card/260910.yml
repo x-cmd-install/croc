@@ -7,7 +7,7 @@ about:
   latestVersion: "v11.5.2"
   latestRelease: "v11.5.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:44:45Z
+  collectedAt: 2026-09-10T22:09:23Z
 timeline:
   created: 2017-10-17
   lastCommit: 2026-09-10
@@ -90,7 +90,7 @@ total:
   commit: 2487
 ---
 path: /home/runner/.x-repo/github.com/schollz/croc
-collectedAt: 2026-09-10T21:44:48Z
+collectedAt: 2026-09-10T22:09:24Z
 loc:
   Go:
     code: 43825
