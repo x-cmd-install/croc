@@ -2,25 +2,25 @@ about:
   description: "Easily and securely send things from one computer to another :crocodile: :package:"
   license: MIT
   homepage: https://getcroc.com
-  head: 291cdcc
+  head: 2228082
   archived: false
   latestVersion: "v11.5.2"
   latestRelease: "v11.5.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T04:38:20Z
+  collectedAt: 2026-09-10T16:39:33Z
 timeline:
   created: 2017-10-17
-  lastCommit: 2026-09-09
+  lastCommit: 2026-09-10
   lastVersion: 2026-09-09
   lastRelease: 2026-09-09
   lastPrerelease: 
 popularity:
-  star: 40286
+  star: 40291
   watcher: 252
   fork: 1615
   release: 223
   contributor: 144
-  pullRequest: 654
+  pullRequest: 656
   issue: 631
 language:
   Go: 1466772
@@ -36,61 +36,61 @@ recent:
   last30d:
     since: 2026-08-11
     release: 21
-    mergedPR: 58
-    openPR: 1
+    mergedPR: 59
+    openPR: 0
     closedIssue: 19
     openIssue: 2
-    commit: 131
+    commit: 132
   last60d:
     since: 2026-07-12
     release: 29
-    mergedPR: 104
-    openPR: 1
+    mergedPR: 105
+    openPR: 0
     closedIssue: 36
     openIssue: 2
-    commit: 231
+    commit: 232
   last90d:
     since: 2026-06-12
     release: 39
-    mergedPR: 115
-    openPR: 1
+    mergedPR: 116
+    openPR: 0
     closedIssue: 46
     openIssue: 2
-    commit: 254
+    commit: 255
   last180d:
     since: 2026-03-14
     release: 40
-    mergedPR: 129
-    openPR: 1
+    mergedPR: 130
+    openPR: 0
     closedIssue: 64
     openIssue: 2
-    commit: 267
+    commit: 268
   last360d:
     since: 2025-09-15
     release: 48
-    mergedPR: 169
-    openPR: 1
+    mergedPR: 170
+    openPR: 0
     closedIssue: 87
     openIssue: 2
-    commit: 324
+    commit: 325
   last720d:
     since: 2024-09-20
     release: 58
-    mergedPR: 195
-    openPR: 1
+    mergedPR: 196
+    openPR: 0
     closedIssue: 147
     openIssue: 2
-    commit: 479
+    commit: 480
 total:
   release: 223
-  mergedPR: 412
-  openPR: 1
+  mergedPR: 413
+  openPR: 0
   closedIssue: 629
   openIssue: 2
-  commit: 2486
+  commit: 2487
 ---
 path: /home/runner/.x-repo/github.com/schollz/croc
-collectedAt: 2026-09-10T04:38:21Z
+collectedAt: 2026-09-10T16:39:36Z
 loc:
   Go:
     code: 43825
