@@ -12,6 +12,28 @@ Easily and securely send things from one computer to another :crocodile: :packag
 x install croc
 ```
 
+## Code insight
+
+Total: **67,294** lines of code across **254** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Go | 43,825 | 2,255 | 4,344 | 188 |
+| TypeScript | 9,769 | 44 | 681 | 44 |
+| Tsx | 5,038 | 7 | 304 | 14 |
+| Css | 3,795 | 0 | 692 | 1 |
+| Json | 3,635 | 0 | 0 | 7 |
+
+## OpenSSF Scorecard
+
+Overall score: **5 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (0/10) — Found 2/21 approved changesets -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+
 ## Source
 
 - **Upstream**: <https://github.com/schollz/croc>
@@ -23,6 +45,25 @@ x install croc
 - **Latest**: `v11.5.2` (2026-09-09)
 - **Last commit**: 2026-09-10
 - **Assets in release**: 22
+
+## Popularity
+
+- **Stars**: 40,293 · **Forks**: 1,615 · **Open issues**: 631 · **Contributors**: 144
+
+## Totals (cumulative)
+
+- **Releases**: 223 · **Merged PRs**: 413 · **Open PRs**: 0 · **Closed issues**: 629 · **Open issues**: 2 · **Commits**: 2487
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 21 | 59 | 0 | 19 | 2 | 132 |
+| last60d | 2026-07-12 | 29 | 105 | 0 | 36 | 2 | 232 |
+| 90d | 2026-06-12 | 39 | 116 | 0 | 46 | 2 | 255 |
+| last180d | 2026-03-14 | 40 | 130 | 0 | 64 | 2 | 268 |
+| 360d | 2025-09-15 | 48 | 170 | 0 | 87 | 2 | 325 |
+| last720d | 2024-09-20 | 58 | 196 | 0 | 147 | 2 | 480 |
 
 ## Release assets
 
@@ -51,43 +92,17 @@ x install croc
 | [croc_v11.5.2_Windows-64bit.zip](https://github.com/schollz/croc/releases/download/v11.5.2/croc_v11.5.2_Windows-64bit.zip) | 8.6 MiB | `native/win/x64` |
 | [croc_v11.5.2_Windows-ARM64.zip](https://github.com/schollz/croc/releases/download/v11.5.2/croc_v11.5.2_Windows-ARM64.zip) | 7.7 MiB | `native/win/arm64` |
 
-## Popularity
+## Distribution status
 
-- **Stars**: 40,291 · **Forks**: 1,615 · **Open issues**: 631 · **Contributors**: 144
+Reported by **88** distros on [repology.org](https://repology.org/project/croc). **5** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
 
-## Totals (cumulative)
-
-- **Releases**: 223 · **Merged PRs**: 413 · **Open PRs**: 0 · **Closed issues**: 629 · **Open issues**: 2 · **Commits**: 2487
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 21 | 59 | 0 | 19 | 2 | 132 |
-| 90d | 2026-06-12 | 39 | 116 | 0 | 46 | 2 | 255 |
-| 360d | 2025-09-15 | 48 | 170 | 0 | 87 | 2 | 325 |
-
-## Code size
-
-Total: **67,294** lines of code across **254** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Go | 43,825 | 2,255 | 4,344 | 188 |
-| TypeScript | 9,769 | 44 | 681 | 44 |
-| Tsx | 5,038 | 7 | 304 | 14 |
-| Css | 3,795 | 0 | 692 | 1 |
-| Json | 3,635 | 0 | 0 | 7 |
-
-## OpenSSF Scorecard
-
-Overall score: **5 / 10**
-
-Lowest-scoring checks:
-
-- **Code-Review** (0/10) — Found 2/21 approved changesets -- score normalized to 0
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `11.5.0` | ⚠️ outdated |
+| Homebrew | `11.5.2` | ✅ latest |
+| Nix unstable | `11.1.0` | ⚠️ outdated |
+| Void | `10.4.14` | ⚠️ outdated |
+| Alpine edge | `11.3.6` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -98,4 +113,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:39:42Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:44:56Z._
