@@ -30,7 +30,7 @@ Overall score: **5 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 2/21 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 1/15 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,334 · **Forks**: 1,615 · **Open issues**: 631 · **Contributors**: 145
+- **Stars**: 40,347 · **Forks**: 1,617 · **Open issues**: 631 · **Contributors**: 145
 
 ## Totals (cumulative)
 
-- **Releases**: 224 · **Merged PRs**: 422 · **Open PRs**: 0 · **Closed issues**: 629 · **Open issues**: 2 · **Commits**: 2498
+- **Releases**: 224 · **Merged PRs**: 422 · **Open PRs**: 1 · **Closed issues**: 629 · **Open issues**: 2 · **Commits**: 2498
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 20 | 60 | 0 | 16 | 2 | 89 |
-| last60d | 2026-07-17 | 30 | 111 | 0 | 36 | 2 | 233 |
-| 90d | 2026-06-17 | 40 | 125 | 0 | 46 | 2 | 266 |
-| last180d | 2026-03-19 | 41 | 139 | 0 | 64 | 2 | 279 |
-| 360d | 2025-09-20 | 49 | 179 | 0 | 86 | 2 | 333 |
-| last720d | 2024-09-25 | 59 | 204 | 0 | 147 | 2 | 489 |
+| 30d | 2026-08-17 | 20 | 56 | 1 | 14 | 2 | 89 |
+| last60d | 2026-07-18 | 30 | 111 | 1 | 36 | 2 | 233 |
+| 90d | 2026-06-18 | 40 | 125 | 1 | 46 | 2 | 266 |
+| last180d | 2026-03-20 | 41 | 139 | 1 | 64 | 2 | 279 |
+| 360d | 2025-09-21 | 49 | 179 | 1 | 86 | 2 | 333 |
+| last720d | 2024-09-26 | 59 | 204 | 1 | 147 | 2 | 489 |
 
 ## Release assets
 
@@ -113,4 +113,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T04:56:26Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T04:55:09Z._

@@ -30,7 +30,7 @@ x install croc
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 2/21 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 1/15 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,22 +48,22 @@ x install croc
 
 ## 流行度
 
-- **Star**: 40,334 · **Fork**: 1,615 · **开放 issue**: 631 · **贡献者**: 145
+- **Star**: 40,347 · **Fork**: 1,617 · **开放 issue**: 631 · **贡献者**: 145
 
 ## 累计统计
 
-- **发布数**: 224 · **已合并 PR**: 422 · **开放 PR**: 0 · **已关闭 issue**: 629 · **开放 issue**: 2 · **提交数**: 2498
+- **发布数**: 224 · **已合并 PR**: 422 · **开放 PR**: 1 · **已关闭 issue**: 629 · **开放 issue**: 2 · **提交数**: 2498
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 20 | 60 | 0 | 16 | 2 | 89 |
-| last60d | 2026-07-17 | 30 | 111 | 0 | 36 | 2 | 233 |
-| 90d | 2026-06-17 | 40 | 125 | 0 | 46 | 2 | 266 |
-| last180d | 2026-03-19 | 41 | 139 | 0 | 64 | 2 | 279 |
-| 360d | 2025-09-20 | 49 | 179 | 0 | 86 | 2 | 333 |
-| last720d | 2024-09-25 | 59 | 204 | 0 | 147 | 2 | 489 |
+| 30d | 2026-08-17 | 20 | 56 | 1 | 14 | 2 | 89 |
+| last60d | 2026-07-18 | 30 | 111 | 1 | 36 | 2 | 233 |
+| 90d | 2026-06-18 | 40 | 125 | 1 | 46 | 2 | 266 |
+| last180d | 2026-03-20 | 41 | 139 | 1 | 64 | 2 | 279 |
+| 360d | 2025-09-21 | 49 | 179 | 1 | 86 | 2 | 333 |
+| last720d | 2024-09-26 | 59 | 204 | 1 | 147 | 2 | 489 |
 
 ## Release 资产
 
@@ -113,4 +113,4 @@ croc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260915.yml` · 2026-09-15T04:56:27Z._
+_数据快照: `data/card/260916.yml` · 2026-09-16T04:55:10Z._
