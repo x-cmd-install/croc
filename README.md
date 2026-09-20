@@ -4,7 +4,7 @@
 
 Easily and securely send things from one computer to another :crocodile: :package:
 
-![croc](https://repo.x-cmd.io/croc.svg)
+[![x-cmd/install — croc Code Quality Monitoring Repo Card](https://repo.x-cmd.io/croc.svg)](https://x-cmd.com/install/croc)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,367 · **Forks**: 1,619 · **Open issues**: 631 · **Contributors**: 145
+- **Stars**: 40,389 · **Forks**: 1,620 · **Open issues**: 631 · **Contributors**: 145
 
 ## Totals (cumulative)
 
-- **Releases**: 224 · **Merged PRs**: 422 · **Open PRs**: 5 · **Closed issues**: 629 · **Open issues**: 2 · **Commits**: 2498
+- **Releases**: 224 · **Merged PRs**: 422 · **Open PRs**: 6 · **Closed issues**: 629 · **Open issues**: 2 · **Commits**: 2498
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 16 | 50 | 5 | 9 | 1 | 89 |
-| last60d | 2026-07-20 | 30 | 110 | 5 | 34 | 2 | 233 |
-| 90d | 2026-06-20 | 40 | 125 | 5 | 46 | 2 | 266 |
-| last180d | 2026-03-22 | 41 | 139 | 5 | 64 | 2 | 279 |
-| 360d | 2025-09-23 | 48 | 179 | 5 | 86 | 2 | 333 |
-| last720d | 2024-09-28 | 59 | 204 | 5 | 147 | 2 | 489 |
+| 30d | 2026-08-21 | 13 | 42 | 6 | 6 | 1 | 89 |
+| last60d | 2026-07-22 | 28 | 106 | 6 | 34 | 2 | 233 |
+| 90d | 2026-06-22 | 40 | 125 | 6 | 46 | 2 | 266 |
+| last180d | 2026-03-24 | 41 | 139 | 6 | 64 | 2 | 279 |
+| 360d | 2025-09-25 | 48 | 179 | 6 | 85 | 2 | 333 |
+| last720d | 2024-09-30 | 59 | 204 | 6 | 146 | 2 | 489 |
 
 ## Release assets
 
@@ -113,4 +113,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T04:48:22Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T04:58:09Z._
