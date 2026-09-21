@@ -14,11 +14,11 @@ x install croc
 
 ## Code insight
 
-Total: **74,989** lines of code across **259** files in the top 5 languages.
+Total: **75,127** lines of code across **260** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 44,098 | 2,257 | 4,353 | 188 |
+| Go | 44,236 | 2,262 | 4,364 | 189 |
 | Json | 9,891 | 0 | 0 | 12 |
 | TypeScript | 9,771 | 44 | 681 | 44 |
 | Tsx | 5,110 | 8 | 308 | 14 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v11.5.3` (2026-09-13)
-- **Last commit**: 2026-09-14
+- **Last commit**: 2026-09-20
 - **Assets in release**: 34
 
 ## Popularity
 
-- **Stars**: 40,389 · **Forks**: 1,620 · **Open issues**: 631 · **Contributors**: 145
+- **Stars**: 40,400 · **Forks**: 1,621 · **Open issues**: 631 · **Contributors**: 146
 
 ## Totals (cumulative)
 
-- **Releases**: 224 · **Merged PRs**: 422 · **Open PRs**: 6 · **Closed issues**: 629 · **Open issues**: 2 · **Commits**: 2498
+- **Releases**: 224 · **Merged PRs**: 425 · **Open PRs**: 0 · **Closed issues**: 629 · **Open issues**: 2 · **Commits**: 2503
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 13 | 42 | 6 | 6 | 1 | 89 |
-| last60d | 2026-07-22 | 28 | 106 | 6 | 34 | 2 | 233 |
-| 90d | 2026-06-22 | 40 | 125 | 6 | 46 | 2 | 266 |
-| last180d | 2026-03-24 | 41 | 139 | 6 | 64 | 2 | 279 |
-| 360d | 2025-09-25 | 48 | 179 | 6 | 85 | 2 | 333 |
-| last720d | 2024-09-30 | 59 | 204 | 6 | 146 | 2 | 489 |
+| 30d | 2026-08-22 | 13 | 44 | 0 | 5 | 1 | 65 |
+| last60d | 2026-07-23 | 28 | 106 | 0 | 32 | 2 | 205 |
+| 90d | 2026-06-23 | 40 | 128 | 0 | 46 | 2 | 269 |
+| last180d | 2026-03-25 | 41 | 142 | 0 | 63 | 2 | 283 |
+| 360d | 2025-09-26 | 48 | 182 | 0 | 85 | 2 | 332 |
+| last720d | 2024-10-01 | 59 | 207 | 0 | 146 | 2 | 494 |
 
 ## Release assets
 
@@ -113,4 +113,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T04:58:09Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T04:54:49Z._
