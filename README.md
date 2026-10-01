@@ -30,7 +30,7 @@ Overall score: **5.2 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 4/19 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 6/22 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,486 · **Forks**: 1,626 · **Open issues**: 631 · **Contributors**: 148
+- **Stars**: 40,495 · **Forks**: 1,627 · **Open issues**: 631 · **Contributors**: 148
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 6 | 28 | 1 | 2 | 1 | 40 |
-| last60d | 2026-08-01 | 25 | 85 | 1 | 22 | 2 | 178 |
-| 90d | 2026-07-02 | 39 | 130 | 1 | 44 | 2 | 268 |
-| last180d | 2026-04-03 | 42 | 148 | 1 | 62 | 2 | 290 |
-| 360d | 2025-10-05 | 49 | 188 | 1 | 84 | 2 | 339 |
-| last720d | 2024-10-10 | 59 | 211 | 1 | 143 | 2 | 480 |
+| 30d | 2026-09-01 | 6 | 26 | 1 | 2 | 1 | 40 |
+| last60d | 2026-08-02 | 25 | 85 | 1 | 22 | 2 | 178 |
+| 90d | 2026-07-03 | 39 | 130 | 1 | 43 | 2 | 268 |
+| last180d | 2026-04-04 | 42 | 148 | 1 | 62 | 2 | 290 |
+| 360d | 2025-10-06 | 49 | 188 | 1 | 84 | 2 | 339 |
+| last720d | 2024-10-11 | 59 | 211 | 1 | 143 | 2 | 480 |
 
 ## Release assets
 
@@ -113,4 +113,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T05:38:05Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:00:58Z._
