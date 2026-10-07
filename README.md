@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,521 · **Forks**: 1,625 · **Open issues**: 631 · **Contributors**: 148
+- **Stars**: 40,525 · **Forks**: 1,625 · **Open issues**: 631 · **Contributors**: 148
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 5 | 25 | 0 | 2 | 1 | 25 |
-| last60d | 2026-08-07 | 24 | 84 | 0 | 21 | 2 | 163 |
-| 90d | 2026-07-08 | 34 | 127 | 0 | 39 | 2 | 257 |
-| last180d | 2026-04-09 | 42 | 151 | 0 | 61 | 2 | 293 |
-| 360d | 2025-10-11 | 49 | 191 | 0 | 83 | 2 | 342 |
-| last720d | 2024-10-16 | 59 | 213 | 0 | 142 | 2 | 480 |
+| 30d | 2026-09-07 | 4 | 25 | 0 | 2 | 0 | 25 |
+| last60d | 2026-08-08 | 24 | 84 | 0 | 21 | 2 | 163 |
+| 90d | 2026-07-09 | 32 | 126 | 0 | 38 | 2 | 257 |
+| last180d | 2026-04-10 | 42 | 151 | 0 | 61 | 2 | 293 |
+| 360d | 2025-10-12 | 49 | 191 | 0 | 83 | 2 | 342 |
+| last720d | 2024-10-17 | 59 | 213 | 0 | 142 | 2 | 480 |
 
 ## Release assets
 
@@ -113,4 +113,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T06:16:55Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T05:58:25Z._
