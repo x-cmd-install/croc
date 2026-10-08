@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v11.5.4` (2026-09-26)
-- **Last commit**: 2026-10-05
+- **Last commit**: 2026-10-07
 - **Assets in release**: 34
 
 ## Popularity
 
-- **Stars**: 40,525 · **Forks**: 1,625 · **Open issues**: 631 · **Contributors**: 148
+- **Stars**: 40,531 · **Forks**: 1,625 · **Open issues**: 632 · **Contributors**: 148
 
 ## Totals (cumulative)
 
-- **Releases**: 225 · **Merged PRs**: 434 · **Open PRs**: 0 · **Closed issues**: 629 · **Open issues**: 2 · **Commits**: 2513
+- **Releases**: 225 · **Merged PRs**: 434 · **Open PRs**: 0 · **Closed issues**: 629 · **Open issues**: 3 · **Commits**: 2514
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 4 | 25 | 0 | 2 | 0 | 25 |
-| last60d | 2026-08-08 | 24 | 84 | 0 | 21 | 2 | 163 |
-| 90d | 2026-07-09 | 32 | 126 | 0 | 38 | 2 | 257 |
-| last180d | 2026-04-10 | 42 | 151 | 0 | 61 | 2 | 293 |
-| 360d | 2025-10-12 | 49 | 191 | 0 | 83 | 2 | 342 |
-| last720d | 2024-10-17 | 59 | 213 | 0 | 142 | 2 | 480 |
+| 30d | 2026-09-08 | 4 | 24 | 0 | 1 | 1 | 26 |
+| last60d | 2026-08-09 | 24 | 84 | 0 | 21 | 3 | 164 |
+| 90d | 2026-07-10 | 31 | 126 | 0 | 38 | 3 | 258 |
+| last180d | 2026-04-11 | 42 | 151 | 0 | 61 | 3 | 294 |
+| 360d | 2025-10-13 | 49 | 190 | 0 | 82 | 3 | 343 |
+| last720d | 2024-10-18 | 59 | 213 | 0 | 142 | 3 | 481 |
 
 ## Release assets
 
@@ -113,4 +113,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T05:58:25Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T06:01:57Z._
