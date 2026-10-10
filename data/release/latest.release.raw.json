@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 8420881,
       "digest": "sha256:321eea8b117e0178a7882e677887194a544dc08c3745f512518cb22669e1b844",
-      "download_count": 95,
+      "download_count": 114,
       "created_at": "2026-09-26T21:48:42Z",
       "updated_at": "2026-09-26T21:48:42Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc-11.5.4-1.aarch64.rpm"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 8825869,
       "digest": "sha256:6883f6eae7c6ae0375b07454deca56a14761673be75dfe2cb7b3e0d025eecaf5",
-      "download_count": 15,
+      "download_count": 18,
       "created_at": "2026-09-26T21:48:42Z",
       "updated_at": "2026-09-26T21:48:43Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc-11.5.4-1.armv5tel.rpm"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 8807541,
       "digest": "sha256:2f6b0840754d08c54af50df5bb37194b22405a82ef06c8774c5983aae3f15c82",
-      "download_count": 17,
+      "download_count": 19,
       "created_at": "2026-09-26T21:48:42Z",
       "updated_at": "2026-09-26T21:48:43Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc-11.5.4-1.armv7hl.rpm"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 8868567,
       "digest": "sha256:baea0e331d1b8f7413cc90837f96e6fc10b57b90fe5f299c8a9a8d029b291376",
-      "download_count": 17,
+      "download_count": 19,
       "created_at": "2026-09-26T21:48:42Z",
       "updated_at": "2026-09-26T21:48:44Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc-11.5.4-1.i386.rpm"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 8759933,
       "digest": "sha256:6c26b99fc7a4b66fe5ffb290374fc00e3294c7dfd01defed655d5d125c6b491a",
-      "download_count": 15,
+      "download_count": 18,
       "created_at": "2026-09-26T21:48:42Z",
       "updated_at": "2026-09-26T21:48:43Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc-11.5.4-1.riscv64.rpm"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 9250178,
       "digest": "sha256:ab86c9fd4b5d048aecbaebd4352bd375d901caea076734a7faf68caa04980ee3",
-      "download_count": 111,
+      "download_count": 129,
       "created_at": "2026-09-26T21:48:43Z",
       "updated_at": "2026-09-26T21:48:43Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc-11.5.4-1.x86_64.rpm"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 10140544,
       "digest": "sha256:b9513f062a59910ac780338d9e600194aa8165a68a2a8b2e73fd2c892b8389df",
-      "download_count": 275,
+      "download_count": 306,
       "created_at": "2026-09-26T21:48:37Z",
       "updated_at": "2026-09-26T21:48:38Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc-web_v11.5.4_Linux-amd64.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 9245030,
       "digest": "sha256:e8ccfdae32c75a1e58e5f234b120a8e300eef851c26a9e78a50d8a19e3041a98",
-      "download_count": 218,
+      "download_count": 249,
       "created_at": "2026-09-26T21:48:41Z",
       "updated_at": "2026-09-26T21:48:41Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_11.5.4-1_amd64.deb"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 8418518,
       "digest": "sha256:ce0ad7bd9c7f3c200aef0ac5dfc638332421f321848ecc1b846b164cbdaf8685",
-      "download_count": 86,
+      "download_count": 100,
       "created_at": "2026-09-26T21:48:41Z",
       "updated_at": "2026-09-26T21:48:41Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_11.5.4-1_arm64.deb"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 8825826,
       "digest": "sha256:1364461d5ab3838ea9f7593c819176f1ffa4bada9314adb025efa0116b530e5d",
-      "download_count": 21,
+      "download_count": 24,
       "created_at": "2026-09-26T21:48:41Z",
       "updated_at": "2026-09-26T21:48:42Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_11.5.4-1_armel.deb"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 8802432,
       "digest": "sha256:a9bff99b76b5c5899d72a0cef44ccb6300da4ed19091a8528c9b01d3e2c23d37",
-      "download_count": 16,
+      "download_count": 18,
       "created_at": "2026-09-26T21:48:41Z",
       "updated_at": "2026-09-26T21:48:42Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_11.5.4-1_armhf.deb"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 8868548,
       "digest": "sha256:c50c4c91eebde7148cdcfaeab01dcc8e54abd228488e17cbb75a1d4ad028c520",
-      "download_count": 22,
+      "download_count": 25,
       "created_at": "2026-09-26T21:48:41Z",
       "updated_at": "2026-09-26T21:48:42Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_11.5.4-1_i386.deb"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 8759188,
       "digest": "sha256:683f8a89d3d811a9c6a2ffdf56bcf51cc17c11db0657d70726cf4a8c72b1e6b0",
-      "download_count": 20,
+      "download_count": 22,
       "created_at": "2026-09-26T21:48:41Z",
       "updated_at": "2026-09-26T21:48:42Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_11.5.4-1_riscv64.deb"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 3159,
       "digest": "sha256:c493a5df2eade3a6d8471bdc6d420adf64bb628b04b2beac5f44a7fe9e5eff05",
-      "download_count": 2672,
+      "download_count": 3115,
       "created_at": "2026-09-26T21:48:43Z",
       "updated_at": "2026-09-26T21:48:43Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_checksums.txt"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 4078498,
       "digest": "sha256:3220d09441b68f038c6ca58cf87d1b18762dff970c882c2c4152350df3c86a34",
-      "download_count": 16,
+      "download_count": 18,
       "created_at": "2026-09-26T21:48:37Z",
       "updated_at": "2026-09-26T21:48:37Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_DragonFlyBSD-64bit.tar.gz"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 8793459,
       "digest": "sha256:cf80c8b7706ef6c41bff3f48215d6d949d549f0f5d69b7d65e37fe4aff2dd41e",
-      "download_count": 27,
+      "download_count": 29,
       "created_at": "2026-09-26T21:48:38Z",
       "updated_at": "2026-09-26T21:48:38Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_FreeBSD-64bit.tar.gz"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 7949830,
       "digest": "sha256:6abb2066e0adac130119a784ad87a844a83c9c1ac04603c51588aa7ecc08eda6",
-      "download_count": 17,
+      "download_count": 19,
       "created_at": "2026-09-26T21:48:38Z",
       "updated_at": "2026-09-26T21:48:39Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_FreeBSD-ARM64.tar.gz"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 8774260,
       "digest": "sha256:36aaf408a7f431f4099abc96190d066ed74442128674f017ea7bca9267d34f53",
-      "download_count": 215,
+      "download_count": 258,
       "created_at": "2026-09-26T21:48:38Z",
       "updated_at": "2026-09-26T21:48:39Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_Linux-32bit.tar.gz"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 9133825,
       "digest": "sha256:577f2c4170fac3f8ab244e325cdeea5644788e1cd7620f592a5d365ee349d556",
-      "download_count": 4145,
+      "download_count": 4789,
       "created_at": "2026-09-26T21:48:38Z",
       "updated_at": "2026-09-26T21:48:39Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_Linux-64bit.tar.gz"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 8663652,
       "digest": "sha256:58b5c70e754c01db332f2560760131b66e1a00811aa8c2fe0b99bda4daf20bd1",
-      "download_count": 92,
+      "download_count": 106,
       "created_at": "2026-09-26T21:48:38Z",
       "updated_at": "2026-09-26T21:48:39Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_Linux-ARM.tar.gz"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 8257952,
       "digest": "sha256:532646fdc82e51b524aa99fa52024e8d9ddf8b67622f574b5ae7943dc9ffce55",
-      "download_count": 759,
+      "download_count": 899,
       "created_at": "2026-09-26T21:48:39Z",
       "updated_at": "2026-09-26T21:48:39Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_Linux-ARM64.tar.gz"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 8690739,
       "digest": "sha256:12b45c83910585719e7685db08992acb43ecbd1ca92b55c7c3c4617bdc78649e",
-      "download_count": 28,
+      "download_count": 30,
       "created_at": "2026-09-26T21:48:39Z",
       "updated_at": "2026-09-26T21:48:39Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_Linux-ARMv5.tar.gz"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 8601424,
       "digest": "sha256:61863b2c91bbd94be9c11867ba19f0dc0c7ca024095d7c4c355d77039de74bd2",
-      "download_count": 50,
+      "download_count": 57,
       "created_at": "2026-09-26T21:48:39Z",
       "updated_at": "2026-09-26T21:48:40Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_Linux-RISCV64.tar.gz"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 9009088,
       "digest": "sha256:4e4e4e59f05ae90fa972325c4e0b1b6b77082a5bdfa1cab9da83b999902939b4",
-      "download_count": 374,
+      "download_count": 441,
       "created_at": "2026-09-26T21:48:40Z",
       "updated_at": "2026-09-26T21:48:41Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_macOS-64bit.tar.gz"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 8332560,
       "digest": "sha256:ec43d98b4e9e753ad93638abd0811769cc27d3dae5595d35af5f979ad2fa27e1",
-      "download_count": 639,
+      "download_count": 751,
       "created_at": "2026-09-26T21:48:40Z",
       "updated_at": "2026-09-26T21:48:41Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_macOS-ARM64.tar.gz"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 3987802,
       "digest": "sha256:f1753cff453a8d8a293cc034d7fd014adf72a4b83e2ed36d243738e99449d736",
-      "download_count": 15,
+      "download_count": 18,
       "created_at": "2026-09-26T21:48:39Z",
       "updated_at": "2026-09-26T21:48:40Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_NetBSD-32bit.tar.gz"
@@ -1003,7 +1003,7 @@
       "state": "uploaded",
       "size": 4075181,
       "digest": "sha256:8084f8194fa1ecc5787d007d655f4d7b5ef817b0a715fb6b0c2053e42d072661",
-      "download_count": 17,
+      "download_count": 19,
       "created_at": "2026-09-26T21:48:39Z",
       "updated_at": "2026-09-26T21:48:40Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_NetBSD-64bit.tar.gz"
@@ -1039,7 +1039,7 @@
       "state": "uploaded",
       "size": 3663558,
       "digest": "sha256:b4a1d9794cde7e823bd51040e741ba51ebb39a7022ed7d5609a4cae8c57cef0e",
-      "download_count": 15,
+      "download_count": 17,
       "created_at": "2026-09-26T21:48:39Z",
       "updated_at": "2026-09-26T21:48:40Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_NetBSD-ARM64.tar.gz"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 8784934,
       "digest": "sha256:3a84208f105d74a0f9a43b66195e64dab3484948d257c5c32faf13b0f7e16f9e",
-      "download_count": 18,
+      "download_count": 21,
       "created_at": "2026-09-26T21:48:40Z",
       "updated_at": "2026-09-26T21:48:40Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_OpenBSD-64bit.tar.gz"
@@ -1111,7 +1111,7 @@
       "state": "uploaded",
       "size": 7942383,
       "digest": "sha256:65c8917fbab8584a932e5f2b78f5fc7f884dd25ec47b8a2e8d3fb53f9608a8c6",
-      "download_count": 16,
+      "download_count": 18,
       "created_at": "2026-09-26T21:48:40Z",
       "updated_at": "2026-09-26T21:48:40Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_OpenBSD-ARM64.tar.gz"
@@ -1147,7 +1147,7 @@
       "state": "uploaded",
       "size": 12719680,
       "digest": "sha256:baf0bcd67a0c7149a5c92fe947f2adc929f18ac720cf981e60d0f98823de9e4b",
-      "download_count": 65,
+      "download_count": 69,
       "created_at": "2026-09-26T21:48:40Z",
       "updated_at": "2026-09-26T21:48:41Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_src.tar.gz"
@@ -1183,7 +1183,7 @@
       "state": "uploaded",
       "size": 8855850,
       "digest": "sha256:db3650238ddd675a0c90104f329c9cb1579f31a2319485ef8dd5b30721954261",
-      "download_count": 375,
+      "download_count": 441,
       "created_at": "2026-09-26T21:48:37Z",
       "updated_at": "2026-09-26T21:48:38Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_Windows-32bit.zip"
@@ -1219,7 +1219,7 @@
       "state": "uploaded",
       "size": 9039379,
       "digest": "sha256:a75e1bac08948e21a8f02a39ca387b5b516dc91c00b6358e3c14b9726f1992b7",
-      "download_count": 4882,
+      "download_count": 5566,
       "created_at": "2026-09-26T21:48:37Z",
       "updated_at": "2026-09-26T21:48:38Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_Windows-64bit.zip"
@@ -1255,7 +1255,7 @@
       "state": "uploaded",
       "size": 8102007,
       "digest": "sha256:10cce55480dbd00718aa7dca5df9fad44f05a56d44c7e3e5c56f51ff85c1d8d8",
-      "download_count": 326,
+      "download_count": 388,
       "created_at": "2026-09-26T21:48:37Z",
       "updated_at": "2026-09-26T21:48:38Z",
       "browser_download_url": "https://github.com/schollz/croc/releases/download/v11.5.4/croc_v11.5.4_Windows-ARM64.zip"
