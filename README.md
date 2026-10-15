@@ -26,11 +26,11 @@ Total: **76,125** lines of code across **262** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.2 / 10**
+Overall score: **5.3 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 6/22 approved changesets -- score normalized to 2
+- **Code-Review** (3/10) — Found 6/18 approved changesets -- score normalized to 3
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v11.5.4` (2026-09-26)
-- **Last commit**: 2026-10-12
+- **Last commit**: 2026-10-14
 - **Assets in release**: 34
 
 ## Popularity
 
-- **Stars**: 40,570 · **Forks**: 1,632 · **Open issues**: 632 · **Contributors**: 148
+- **Stars**: 40,591 · **Forks**: 1,633 · **Open issues**: 633 · **Contributors**: 149
 
 ## Totals (cumulative)
 
-- **Releases**: 225 · **Merged PRs**: 434 · **Open PRs**: 7 · **Closed issues**: 629 · **Open issues**: 3 · **Commits**: 2515
+- **Releases**: 225 · **Merged PRs**: 441 · **Open PRs**: 3 · **Closed issues**: 629 · **Open issues**: 4 · **Commits**: 2522
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 1 | 13 | 7 | 0 | 1 | 16 |
-| last60d | 2026-08-15 | 22 | 74 | 7 | 16 | 3 | 123 |
-| 90d | 2026-07-16 | 31 | 124 | 7 | 36 | 3 | 259 |
-| last180d | 2026-04-17 | 42 | 152 | 7 | 60 | 3 | 294 |
-| 360d | 2025-10-19 | 47 | 185 | 7 | 82 | 3 | 336 |
-| last720d | 2024-10-24 | 59 | 213 | 7 | 141 | 3 | 480 |
+| 30d | 2026-09-15 | 1 | 19 | 3 | 0 | 2 | 23 |
+| last60d | 2026-08-16 | 21 | 80 | 3 | 16 | 4 | 130 |
+| 90d | 2026-07-17 | 31 | 131 | 3 | 36 | 4 | 266 |
+| last180d | 2026-04-18 | 42 | 159 | 3 | 60 | 4 | 301 |
+| 360d | 2025-10-20 | 47 | 192 | 3 | 82 | 4 | 343 |
+| last720d | 2024-10-25 | 59 | 220 | 3 | 141 | 4 | 487 |
 
 ## Release assets
 
@@ -113,4 +113,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T04:52:27Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T04:50:36Z._

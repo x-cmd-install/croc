@@ -26,11 +26,11 @@ x install croc
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.2 / 10**
+总评分: **5.3 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 6/22 approved changesets -- score normalized to 2
+- **Code-Review** (3/10) — Found 6/18 approved changesets -- score normalized to 3
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -43,27 +43,27 @@ x install croc
 ## 发布
 
 - **最新版本**: `v11.5.4` (2026-09-26)
-- **最近提交**: 2026-10-12
+- **最近提交**: 2026-10-14
 - **Release 含资产**: 34 个
 
 ## 流行度
 
-- **Star**: 40,570 · **Fork**: 1,632 · **开放 issue**: 632 · **贡献者**: 148
+- **Star**: 40,591 · **Fork**: 1,633 · **开放 issue**: 633 · **贡献者**: 149
 
 ## 累计统计
 
-- **发布数**: 225 · **已合并 PR**: 434 · **开放 PR**: 7 · **已关闭 issue**: 629 · **开放 issue**: 3 · **提交数**: 2515
+- **发布数**: 225 · **已合并 PR**: 441 · **开放 PR**: 3 · **已关闭 issue**: 629 · **开放 issue**: 4 · **提交数**: 2522
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 1 | 13 | 7 | 0 | 1 | 16 |
-| last60d | 2026-08-15 | 22 | 74 | 7 | 16 | 3 | 123 |
-| 90d | 2026-07-16 | 31 | 124 | 7 | 36 | 3 | 259 |
-| last180d | 2026-04-17 | 42 | 152 | 7 | 60 | 3 | 294 |
-| 360d | 2025-10-19 | 47 | 185 | 7 | 82 | 3 | 336 |
-| last720d | 2024-10-24 | 59 | 213 | 7 | 141 | 3 | 480 |
+| 30d | 2026-09-15 | 1 | 19 | 3 | 0 | 2 | 23 |
+| last60d | 2026-08-16 | 21 | 80 | 3 | 16 | 4 | 130 |
+| 90d | 2026-07-17 | 31 | 131 | 3 | 36 | 4 | 266 |
+| last180d | 2026-04-18 | 42 | 159 | 3 | 60 | 4 | 301 |
+| 360d | 2025-10-20 | 47 | 192 | 3 | 82 | 4 | 343 |
+| last720d | 2024-10-25 | 59 | 220 | 3 | 141 | 4 | 487 |
 
 ## Release 资产
 
@@ -113,4 +113,4 @@ croc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261014.yml` · 2026-10-14T04:52:27Z._
+_数据快照: `data/card/261015.yml` · 2026-10-15T04:50:38Z._
