@@ -14,15 +14,15 @@ x install croc
 
 ## Code insight
 
-Total: **78,810** lines of code across **280** files in the top 5 languages.
+Total: **80,413** lines of code across **296** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 46,087 | 2,317 | 4,457 | 199 |
-| TypeScript | 11,359 | 62 | 746 | 52 |
-| Json | 10,117 | 0 | 0 | 14 |
-| Tsx | 5,115 | 9 | 306 | 14 |
-| Css | 3,814 | 0 | 696 | 1 |
+| Go | 45,778 | 2,318 | 4,427 | 200 |
+| TypeScript | 13,050 | 75 | 745 | 63 |
+| Json | 10,438 | 0 | 0 | 16 |
+| Tsx | 4,995 | 8 | 313 | 16 |
+| Css | 3,728 | 0 | 681 | 1 |
 
 ## OpenSSF Scorecard
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v11.5.5` (2026-10-19)
-- **Last commit**: 2026-10-21
+- **Last commit**: 2026-10-22
 - **Assets in release**: 34
 
 ## Popularity
 
-- **Stars**: 40,706 · **Forks**: 1,637 · **Open issues**: 634 · **Contributors**: 151
+- **Stars**: 40,733 · **Forks**: 1,639 · **Open issues**: 635 · **Contributors**: 151
 
 ## Totals (cumulative)
 
-- **Releases**: 226 · **Merged PRs**: 458 · **Open PRs**: 2 · **Closed issues**: 632 · **Open issues**: 2 · **Commits**: 2537
+- **Releases**: 226 · **Merged PRs**: 463 · **Open PRs**: 2 · **Closed issues**: 632 · **Open issues**: 3 · **Commits**: 2542
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 2 | 29 | 2 | 3 | 0 | 33 |
-| last60d | 2026-08-23 | 14 | 72 | 2 | 8 | 1 | 101 |
-| 90d | 2026-07-24 | 29 | 133 | 2 | 34 | 2 | 246 |
-| last180d | 2026-04-25 | 43 | 172 | 2 | 63 | 2 | 315 |
-| 360d | 2025-10-27 | 48 | 206 | 2 | 85 | 2 | 353 |
-| last720d | 2024-11-01 | 60 | 237 | 2 | 144 | 2 | 502 |
+| 30d | 2026-09-23 | 2 | 34 | 2 | 3 | 1 | 38 |
+| last60d | 2026-08-24 | 14 | 72 | 2 | 8 | 2 | 106 |
+| 90d | 2026-07-25 | 29 | 136 | 2 | 34 | 3 | 251 |
+| last180d | 2026-04-26 | 43 | 176 | 2 | 63 | 3 | 320 |
+| 360d | 2025-10-28 | 48 | 210 | 2 | 85 | 3 | 358 |
+| last720d | 2024-11-02 | 60 | 242 | 2 | 144 | 3 | 507 |
 
 ## Release assets
 
@@ -104,6 +104,18 @@ Lowest-scoring checks:
 | [croc_v11.5.5_Windows-64bit.zip](https://github.com/schollz/croc/releases/download/v11.5.5/croc_v11.5.5_Windows-64bit.zip) | 9.0 MiB | `native/win/x64` |
 | [croc_v11.5.5_Windows-ARM64.zip](https://github.com/schollz/croc/releases/download/v11.5.5/croc_v11.5.5_Windows-ARM64.zip) | 7.9 MiB | `native/win/arm64` |
 
+## Distribution status
+
+Reported by **89** distros on [repology.org](https://repology.org/project/croc). **13** are ✅ on the latest upstream release, **68** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `11.5.5` | ✅ latest |
+| Homebrew | `11.5.5` | ✅ latest |
+| Nix unstable | `11.5.5` | ✅ latest |
+| Void | `10.4.14` | ⚠️ outdated |
+| Alpine edge | `11.5.4` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `croc` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -113,4 +125,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:48:09Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:44:20Z._
