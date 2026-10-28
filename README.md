@@ -14,23 +14,23 @@ x install croc
 
 ## Code insight
 
-Total: **80,413** lines of code across **296** files in the top 5 languages.
+Total: **80,532** lines of code across **297** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 45,778 | 2,318 | 4,427 | 200 |
+| Go | 45,945 | 2,328 | 4,434 | 201 |
 | TypeScript | 13,050 | 75 | 745 | 63 |
-| Json | 10,438 | 0 | 0 | 16 |
+| Json | 10,390 | 0 | 0 | 16 |
 | Tsx | 4,995 | 8 | 313 | 16 |
 | Css | 3,728 | 0 | 681 | 1 |
 
 ## OpenSSF Scorecard
 
-Overall score: **5.4 / 10**
+Overall score: **5.3 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 6/21 approved changesets -- score normalized to 2
+- **Code-Review** (1/10) — Found 4/21 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v11.5.5` (2026-10-19)
-- **Last commit**: 2026-10-22
+- **Last commit**: 2026-10-27
 - **Assets in release**: 34
 
 ## Popularity
 
-- **Stars**: 40,770 · **Forks**: 1,642 · **Open issues**: 636 · **Contributors**: 151
+- **Stars**: 40,786 · **Forks**: 1,643 · **Open issues**: 636 · **Contributors**: 151
 
 ## Totals (cumulative)
 
-- **Releases**: 226 · **Merged PRs**: 463 · **Open PRs**: 4 · **Closed issues**: 633 · **Open issues**: 3 · **Commits**: 2542
+- **Releases**: 226 · **Merged PRs**: 465 · **Open PRs**: 0 · **Closed issues**: 634 · **Open issues**: 2 · **Commits**: 2545
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 1 | 29 | 4 | 4 | 1 | 31 |
-| last60d | 2026-08-28 | 11 | 64 | 4 | 7 | 2 | 77 |
-| 90d | 2026-07-29 | 28 | 129 | 4 | 32 | 3 | 216 |
-| last180d | 2026-04-30 | 43 | 175 | 4 | 64 | 3 | 320 |
-| 360d | 2025-11-01 | 48 | 209 | 4 | 85 | 3 | 357 |
-| last720d | 2024-11-06 | 60 | 242 | 4 | 144 | 3 | 507 |
+| 30d | 2026-09-28 | 1 | 31 | 0 | 5 | 0 | 34 |
+| last60d | 2026-08-29 | 9 | 60 | 0 | 7 | 1 | 80 |
+| 90d | 2026-07-30 | 28 | 129 | 0 | 32 | 2 | 219 |
+| last180d | 2026-05-01 | 43 | 177 | 0 | 65 | 2 | 323 |
+| 360d | 2025-11-02 | 48 | 211 | 0 | 86 | 2 | 360 |
+| last720d | 2024-11-07 | 60 | 244 | 0 | 144 | 2 | 510 |
 
 ## Release assets
 
@@ -125,4 +125,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:09:15Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T05:42:16Z._
