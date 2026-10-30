@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,800 · **Forks**: 1,643 · **Open issues**: 636 · **Contributors**: 151
+- **Stars**: 40,809 · **Forks**: 1,643 · **Open issues**: 636 · **Contributors**: 151
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 1 | 31 | 0 | 5 | 0 | 34 |
-| last60d | 2026-08-30 | 8 | 60 | 0 | 7 | 1 | 80 |
-| 90d | 2026-07-31 | 28 | 118 | 0 | 28 | 2 | 219 |
-| last180d | 2026-05-02 | 43 | 177 | 0 | 65 | 2 | 323 |
-| 360d | 2025-11-03 | 48 | 211 | 0 | 86 | 2 | 360 |
-| last720d | 2024-11-08 | 60 | 244 | 0 | 143 | 2 | 510 |
+| 30d | 2026-09-30 | 1 | 31 | 0 | 5 | 0 | 34 |
+| last60d | 2026-08-31 | 7 | 59 | 0 | 7 | 1 | 80 |
+| 90d | 2026-08-01 | 26 | 116 | 0 | 27 | 2 | 219 |
+| last180d | 2026-05-03 | 43 | 177 | 0 | 65 | 2 | 323 |
+| 360d | 2025-11-04 | 48 | 211 | 0 | 86 | 2 | 360 |
+| last720d | 2024-11-09 | 59 | 244 | 0 | 143 | 2 | 508 |
 
 ## Release assets
 
@@ -111,7 +111,7 @@ Reported by **90** distros on [repology.org](https://repology.org/project/croc).
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `11.5.5` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `11.5.5` | ✅ latest |
 | Nix unstable | `11.5.5` | ✅ latest |
 | Void | `10.4.14` | ⚠️ outdated |
 | Alpine edge | `11.5.4` | ⚠️ outdated |
@@ -125,4 +125,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T05:47:38Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T06:04:41Z._
