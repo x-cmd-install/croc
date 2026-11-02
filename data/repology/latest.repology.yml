@@ -1,83 +1,27 @@
-- repo: homebrew
-  srcname: croc
-  visiblename: croc
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Securely send things from one computer to another
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: croc
-  binname: croc
-  visiblename: croc
-  version: 11.4.0
-  origversion: 1:11.4.0-1
-  status: outdated
-  summary: Easily and securely send things from one computer to another.
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: croc
-  binname: croc
-  visiblename: croc
-  version: 11.5.4
-  origversion: 1:11.5.4-1
-  status: outdated
-  summary: Easily and securely send things from one computer to another.
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
+- repo: chimera
+  subrepo: user
   srcname: croc
   binname: croc
   visiblename: croc
   version: 11.5.5
-  origversion: 1:11.5.5-1
+  origversion: 11.5.5-r1
   status: outdated
-  summary: Easily and securely send things from one computer to another.
+  summary: File transfer tool
   licenses:
     - MIT
-- repo: spack
+- repo: nix_stable_25_05
   srcname: croc
   visiblename: croc
-  version: 11.5.2
+  version: 10.2.2
   origversion: null
   status: outdated
+  summary: Easily and securely send things from one computer to another
   maintainers:
-    - zzzoom@spack
+    - eduardo@eduardoquiros.com
+    - sandro.jaeckel@gmail.com
+    - xiaoyin_c@qq.com
   licenses:
     - MIT
-- repo: stalix
-  srcname: bin/croc
-  binname: bin/croc
-  visiblename: bin/croc
-  version: 9.6.9
-  origversion: null
-  status: outdated
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/croc
-  binname: bin/croc
-  visiblename: bin/croc
-  version: 11.6.0
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: gnuguix
-  srcname: croc
-  binname: croc
-  visiblename: croc
-  version: 10.2.5
-  origversion: null
-  status: outdated
-  summary: Send things from one computer to another easily and securely
 - repo: aerynos
   srcname: croc
   visiblename: croc
@@ -204,6 +148,22 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
+- repo: altsisyphus
+  srcname: croc
+  binnames:
+    - croc
+    - croc-debuginfo
+  visiblename: croc
+  version: 11.5.4
+  origversion: 11.5.4-alt1
+  status: outdated
+  summary: Easily and securely send things from one computer to another
+  maintainers:
+    - lav@altlinux.org
+  licenses:
+    - MIT
+  categories:
+    - System/Servers
 - repo: alpine_3_20
   subrepo: community
   srcname: croc
@@ -230,6 +190,17 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
+- repo: chimera
+  subrepo: user
+  srcname: croc
+  binname: croc-bashcomp
+  visiblename: croc-bashcomp
+  version: 11.5.5
+  origversion: 11.5.5-r1
+  status: outdated
+  summary: File transfer tool (bash completions)
+  licenses:
+    - MIT
 - repo: alpine_3_21
   subrepo: community
   srcname: croc
@@ -308,13 +279,6 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
-- repo: homebrew
-  srcname: croc
-  visiblename: croc
-  version: 11.6.0
-  origversion: null
-  status: newest
-  summary: Securely send things from one computer to another
 - repo: alpine_3_23
   subrepo: community
   srcname: croc
@@ -341,6 +305,18 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
+- repo: aosc
+  srcname: app-utils/croc
+  binname: croc
+  visiblename: croc
+  version: 10.4.3
+  origversion: 10.4.3-2
+  status: outdated
+  summary: Utility for Cross-NAT file transfers
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
 - repo: alpine_3_23
   subrepo: community
   srcname: croc
@@ -487,34 +463,6 @@
     - MIT
   categories:
     - System/Servers
-- repo: altsisyphus
-  srcname: croc
-  binnames:
-    - croc
-    - croc-debuginfo
-  visiblename: croc
-  version: 11.5.4
-  origversion: 11.5.4-alt1
-  status: outdated
-  summary: Easily and securely send things from one computer to another
-  maintainers:
-    - lav@altlinux.org
-  licenses:
-    - MIT
-  categories:
-    - System/Servers
-- repo: aosc
-  srcname: app-utils/croc
-  binname: croc
-  visiblename: croc
-  version: 10.4.3
-  origversion: 10.4.3-2
-  status: outdated
-  summary: Utility for Cross-NAT file transfers
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
 - repo: arch
   subrepo: extra
   srcname: croc
@@ -522,7 +470,7 @@
   visiblename: croc
   version: 11.6.0
   origversion: 1:11.6.0-1
-  status: newest
+  status: outdated
   summary: Easily and securely send things from one computer to another.
   licenses:
     - MIT
@@ -536,28 +484,6 @@
   summary: Easily and securely send things from one computer to another
   maintainers:
     - chocobo1@aur
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: croc
-  binname: croc
-  visiblename: croc
-  version: 11.5.5
-  origversion: 11.5.5-r1
-  status: outdated
-  summary: File transfer tool
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: croc
-  binname: croc-bashcomp
-  visiblename: croc-bashcomp
-  version: 11.5.5
-  origversion: 11.5.5-r1
-  status: outdated
-  summary: File transfer tool (bash completions)
   licenses:
     - MIT
 - repo: chimera
@@ -596,24 +522,10 @@
 - repo: chocolatey
   binname: croc
   visiblename: croc
-  version: 11.5.5
+  version: 11.6.0
   origversion: null
   status: outdated
   summary: "Easily and securely send things from one computer to another \U0001F40A \U0001F4E6"
-- repo: macports
-  srcname: net/croc
-  binname: croc
-  visiblename: croc
-  version: 11.6.0
-  origversion: null
-  status: newest
-  summary: Easily and securely send things from one computer to another
-  maintainers:
-    - herbygillot@github
-  licenses:
-    - MIT
-  categories:
-    - net
 - repo: fedora_39
   subrepo: release
   srcname: golang-github-schollz-croc
@@ -668,6 +580,23 @@
     - MIT
   categories:
     - Unspecified
+- repo: liguros_stable
+  srcname: net-misc/croc
+  visiblename: net-misc/croc
+  version: 10.2.2
+  origversion: null
+  status: legacy
+  summary: Easily and securely send things from one computer to another
+  maintainers:
+    - zappel@simple-co.de
+    - proxy-maint@gentoo.org
+  licenses:
+    - Apache-2.0
+    - BSD
+    - BSD-2
+    - MIT
+  categories:
+    - net-misc
 - repo: fedora_42
   subrepo: release
   srcname: golang-github-schollz-croc
@@ -785,23 +714,51 @@
     - MIT
   categories:
     - net-misc
-- repo: liguros_stable
-  srcname: net-misc/croc
-  visiblename: net-misc/croc
-  version: 10.2.2
+- repo: gnuguix
+  srcname: croc
+  binname: croc
+  visiblename: croc
+  version: 10.2.5
   origversion: null
-  status: legacy
+  status: outdated
+  summary: Send things from one computer to another easily and securely
+- repo: homebrew
+  srcname: croc
+  visiblename: croc
+  version: 11.6.2
+  origversion: null
+  status: newest
+  summary: Securely send things from one computer to another
+- repo: homebrew
+  srcname: croc
+  visiblename: croc
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Securely send things from one computer to another
+- repo: nix_stable_24_11
+  srcname: croc
+  visiblename: croc
+  version: 10.0.13
+  origversion: null
+  status: outdated
   summary: Easily and securely send things from one computer to another
   maintainers:
-    - zappel@simple-co.de
-    - proxy-maint@gentoo.org
+    - eduardo@eduardoquiros.com
+    - sandro.jaeckel@gmail.com
   licenses:
-    - Apache-2.0
-    - BSD
-    - BSD-2
     - MIT
-  categories:
-    - net-misc
+- repo: parabola
+  subrepo: extra
+  srcname: croc
+  binname: croc
+  visiblename: croc
+  version: 11.6.0
+  origversion: 1:11.6.0-1
+  status: outdated
+  summary: Easily and securely send things from one computer to another.
+  licenses:
+    - MIT
 - repo: liguros_stable
   srcname: net-misc/croc
   visiblename: net-misc/croc
@@ -887,13 +844,60 @@
     - MIT
   categories:
     - net-misc
+- repo: macports
+  srcname: net/croc
+  binname: croc
+  visiblename: croc
+  version: 11.6.0
+  origversion: null
+  status: outdated
+  summary: Easily and securely send things from one computer to another
+  maintainers:
+    - herbygillot@github
+  licenses:
+    - MIT
+  categories:
+    - net
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: croc
+  binname: croc
+  visiblename: croc
+  version: 11.4.0
+  origversion: 1:11.4.0-1
+  status: outdated
+  summary: Easily and securely send things from one computer to another.
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: croc
+  binname: croc
+  visiblename: croc
+  version: 11.5.4
+  origversion: 1:11.5.4-1
+  status: outdated
+  summary: Easily and securely send things from one computer to another.
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: croc
+  binname: croc
+  visiblename: croc
+  version: 11.5.5
+  origversion: 1:11.5.5-1
+  status: outdated
+  summary: Easily and securely send things from one computer to another.
+  licenses:
+    - MIT
 - repo: msys2_clang64
   srcname: mingw-w64-croc
   binname: mingw-w64-clang-x86_64-croc
   visiblename: mingw-w64-clang-x86_64-croc
   version: 11.6.0
   origversion: 11.6.0-1
-  status: newest
+  status: outdated
   summary: Easily and securely send things from one computer to another. (mingw-w64)
   licenses:
     - spdx:MIT
@@ -903,7 +907,7 @@
   visiblename: mingw-w64-clang-aarch64-croc
   version: 11.6.0
   origversion: 11.6.0-1
-  status: newest
+  status: outdated
   summary: Easily and securely send things from one computer to another. (mingw-w64)
   licenses:
     - spdx:MIT
@@ -913,7 +917,7 @@
   visiblename: mingw-w64-ucrt-x86_64-croc
   version: 11.6.0
   origversion: 11.6.0-1
-  status: newest
+  status: outdated
   summary: Easily and securely send things from one computer to another. (mingw-w64)
   licenses:
     - spdx:MIT
@@ -928,31 +932,6 @@
     - hugo@hugoreeves.com
     - eduardo@eduardoquiros.com
     - sandro.jaeckel@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: croc
-  visiblename: croc
-  version: 10.0.13
-  origversion: null
-  status: outdated
-  summary: Easily and securely send things from one computer to another
-  maintainers:
-    - eduardo@eduardoquiros.com
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: croc
-  visiblename: croc
-  version: 10.2.2
-  origversion: null
-  status: outdated
-  summary: Easily and securely send things from one computer to another
-  maintainers:
-    - eduardo@eduardoquiros.com
-    - sandro.jaeckel@gmail.com
-    - xiaoyin_c@qq.com
   licenses:
     - MIT
 - repo: nix_stable_25_11
@@ -1033,17 +1012,6 @@
     - jelonek.jonas@gmail.com
   categories:
     - net
-- repo: parabola
-  subrepo: extra
-  srcname: croc
-  binname: croc
-  visiblename: croc
-  version: 11.6.0
-  origversion: 1:11.6.0-1
-  status: newest
-  summary: Easily and securely send things from one computer to another.
-  licenses:
-    - MIT
 - repo: pclinuxos
   srcname: croc
   visiblename: croc
@@ -1093,7 +1061,7 @@
   subrepo: main
   binname: croc
   visiblename: croc
-  version: 11.6.0
+  version: 11.6.2
   origversion: null
   status: newest
   licenses:
@@ -1126,12 +1094,44 @@
     - MIT
   categories:
     - debug
+- repo: spack
+  srcname: croc
+  visiblename: croc
+  version: 11.5.2
+  origversion: null
+  status: outdated
+  maintainers:
+    - zzzoom@spack
+  licenses:
+    - MIT
+- repo: stalix
+  srcname: bin/croc
+  binname: bin/croc
+  visiblename: bin/croc
+  version: 11.6.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/croc
+  binname: bin/croc
+  visiblename: bin/croc
+  version: 11.6.2
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: t2
   srcname: croc
   visiblename: croc
   version: 11.6.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Easily and securely send things from one computer to another
   maintainers:
     - rene@exactco.de
@@ -1143,8 +1143,8 @@
   srcname: croc
   binname: croc
   visiblename: croc
-  version: 11.6.0
-  origversion: 1:11.6.0
+  version: 11.6.2
+  origversion: 1:11.6.2
   status: newest
   summary: Easily and securely send things from one computer to another
   maintainers:
