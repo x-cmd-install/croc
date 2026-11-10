@@ -14,11 +14,11 @@ x install croc
 
 ## Code insight
 
-Total: **91,940** lines of code across **337** files in the top 5 languages.
+Total: **92,050** lines of code across **338** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 51,117 | 2,460 | 4,710 | 231 |
+| Go | 51,227 | 2,468 | 4,719 | 232 |
 | Json | 14,384 | 0 | 0 | 20 |
 | TypeScript | 14,325 | 95 | 793 | 69 |
 | Tsx | 4,888 | 8 | 305 | 16 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v11.6.5` (2026-11-07)
-- **Last commit**: 2026-11-08
+- **Last commit**: 2026-11-09
 - **Assets in release**: 34
 
 ## Popularity
 
-- **Stars**: 40,890 · **Forks**: 1,651 · **Open issues**: 641 · **Contributors**: 153
+- **Stars**: 40,900 · **Forks**: 1,653 · **Open issues**: 641 · **Contributors**: 154
 
 ## Totals (cumulative)
 
-- **Releases**: 232 · **Merged PRs**: 479 · **Open PRs**: 2 · **Closed issues**: 638 · **Open issues**: 3 · **Commits**: 2578
+- **Releases**: 232 · **Merged PRs**: 482 · **Open PRs**: 2 · **Closed issues**: 639 · **Open issues**: 2 · **Commits**: 2582
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 7 | 41 | 2 | 7 | 2 | 51 |
-| last60d | 2026-09-10 | 9 | 63 | 2 | 8 | 2 | 75 |
-| 90d | 2026-08-11 | 30 | 122 | 2 | 28 | 3 | 201 |
-| last180d | 2026-05-13 | 48 | 188 | 2 | 66 | 3 | 348 |
-| 360d | 2025-11-14 | 54 | 225 | 2 | 90 | 3 | 383 |
-| last720d | 2024-11-19 | 65 | 256 | 2 | 140 | 3 | 537 |
+| 30d | 2026-10-11 | 7 | 44 | 2 | 8 | 1 | 55 |
+| last60d | 2026-09-11 | 9 | 66 | 2 | 9 | 1 | 79 |
+| 90d | 2026-08-12 | 29 | 124 | 2 | 29 | 2 | 205 |
+| last180d | 2026-05-14 | 48 | 191 | 2 | 67 | 2 | 352 |
+| 360d | 2025-11-15 | 54 | 228 | 2 | 91 | 2 | 387 |
+| last720d | 2024-11-20 | 65 | 259 | 2 | 141 | 2 | 541 |
 
 ## Release assets
 
@@ -106,11 +106,11 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **87** distros on [repology.org](https://repology.org/project/croc). **6** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
+Reported by **84** distros on [repology.org](https://repology.org/project/croc). **9** are ✅ on the latest upstream release, **71** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Arch | `11.6.4` | ⚠️ outdated |
+| Arch | `11.6.5` | ✅ latest |
 | Homebrew | `11.6.5` | ✅ latest |
 | Nix unstable | `11.5.5` | ⚠️ outdated |
 | Void | `10.4.14` | ⚠️ outdated |
@@ -125,4 +125,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T06:19:56Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:14:02Z._
