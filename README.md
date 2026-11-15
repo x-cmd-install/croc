@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,931 · **Forks**: 1,655 · **Open issues**: 641 · **Contributors**: 156
+- **Stars**: 40,939 · **Forks**: 1,655 · **Open issues**: 641 · **Contributors**: 156
 
 ## Totals (cumulative)
 
-- **Releases**: 232 · **Merged PRs**: 486 · **Open PRs**: 1 · **Closed issues**: 639 · **Open issues**: 2 · **Commits**: 2596
+- **Releases**: 232 · **Merged PRs**: 486 · **Open PRs**: 2 · **Closed issues**: 639 · **Open issues**: 2 · **Commits**: 2596
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 7 | 39 | 1 | 7 | 1 | 69 |
-| last60d | 2026-09-15 | 8 | 60 | 1 | 9 | 1 | 93 |
-| 90d | 2026-08-16 | 28 | 121 | 1 | 26 | 2 | 219 |
-| last180d | 2026-05-18 | 48 | 194 | 1 | 66 | 2 | 366 |
-| 360d | 2025-11-19 | 54 | 226 | 1 | 89 | 2 | 401 |
-| last720d | 2024-11-24 | 65 | 262 | 1 | 140 | 2 | 555 |
+| 30d | 2026-10-16 | 7 | 39 | 2 | 7 | 1 | 69 |
+| last60d | 2026-09-16 | 8 | 59 | 2 | 9 | 1 | 93 |
+| 90d | 2026-08-17 | 28 | 117 | 2 | 24 | 2 | 219 |
+| last180d | 2026-05-19 | 48 | 194 | 2 | 66 | 2 | 366 |
+| 360d | 2025-11-20 | 53 | 223 | 2 | 88 | 2 | 401 |
+| last720d | 2024-11-25 | 65 | 262 | 2 | 140 | 2 | 553 |
 
 ## Release assets
 
@@ -106,7 +106,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **84** distros on [repology.org](https://repology.org/project/croc). **13** are ✅ on the latest upstream release, **67** are ⚠️ on an older version.
+Reported by **84** distros on [repology.org](https://repology.org/project/croc). **14** are ✅ on the latest upstream release, **66** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -125,4 +125,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T06:22:33Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T06:31:46Z._
