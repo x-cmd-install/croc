@@ -1,49 +1,9 @@
-- repo: stalix_dev
-  srcname: bin/croc
-  binname: bin/croc
-  visiblename: bin/croc
-  version: 11.6.5
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: chocolatey
-  binname: croc
-  visiblename: croc
-  version: 11.6.0
-  origversion: null
-  status: outdated
-  summary: "Easily and securely send things from one computer to another \U0001F40A \U0001F4E6"
-- repo: chimera
-  subrepo: user
-  srcname: croc
-  binname: croc-bashcomp
-  visiblename: croc-bashcomp
-  version: 11.5.5
-  origversion: 11.5.5-r1
-  status: outdated
-  summary: File transfer tool (bash completions)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: croc
-  binname: croc-doc
-  visiblename: croc-doc
-  version: 11.5.5
-  origversion: 11.5.5-r1
-  status: outdated
-  summary: File transfer tool (documentation)
-  licenses:
-    - MIT
 - repo: aerynos
   srcname: croc
   visiblename: croc
-  version: 11.6.4
+  version: 11.6.5
   origversion: null
-  status: outdated
+  status: newest
   summary: Securely transfer files and folders between any two computers
   licenses:
     - MIT
@@ -73,17 +33,6 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
-  srcname: croc
-  binname: croc-man
-  visiblename: croc-man
-  version: 11.5.5
-  origversion: 11.5.5-r1
-  status: outdated
-  summary: File transfer tool (manual pages)
-  licenses:
-    - MIT
 - repo: alpine_3_18
   subrepo: community
   srcname: croc
@@ -344,6 +293,17 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
+- repo: chimera
+  subrepo: user
+  srcname: croc
+  binname: croc
+  visiblename: croc
+  version: 11.5.5
+  origversion: 11.5.5-r1
+  status: outdated
+  summary: File transfer tool
+  licenses:
+    - MIT
 - repo: alpine_3_24
   subrepo: community
   srcname: croc
@@ -355,17 +315,6 @@
   summary: Easily and securely send things from one computer to another (documentation)
   maintainers:
     - aklitzing@gmail.com
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: croc
-  binname: croc-zshcomp
-  visiblename: croc-zshcomp
-  version: 11.5.5
-  origversion: 11.5.5-r1
-  status: outdated
-  summary: File transfer tool (zsh completions)
   licenses:
     - MIT
 - repo: alpine_3_24
@@ -516,14 +465,64 @@
 - repo: chimera
   subrepo: user
   srcname: croc
-  binname: croc
-  visiblename: croc
+  binname: croc-bashcomp
+  visiblename: croc-bashcomp
   version: 11.5.5
   origversion: 11.5.5-r1
   status: outdated
-  summary: File transfer tool
+  summary: File transfer tool (bash completions)
   licenses:
     - MIT
+- repo: chimera
+  subrepo: user
+  srcname: croc
+  binname: croc-doc
+  visiblename: croc-doc
+  version: 11.5.5
+  origversion: 11.5.5-r1
+  status: outdated
+  summary: File transfer tool (documentation)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: croc
+  binname: croc-man
+  visiblename: croc-man
+  version: 11.5.5
+  origversion: 11.5.5-r1
+  status: outdated
+  summary: File transfer tool (manual pages)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: croc
+  binname: croc-zshcomp
+  visiblename: croc-zshcomp
+  version: 11.5.5
+  origversion: 11.5.5-r1
+  status: outdated
+  summary: File transfer tool (zsh completions)
+  licenses:
+    - MIT
+- repo: chocolatey
+  binname: croc
+  visiblename: croc
+  version: 11.6.0
+  origversion: null
+  status: outdated
+  summary: "Easily and securely send things from one computer to another \U0001F40A \U0001F4E6"
+- repo: msys2_clangarm64
+  srcname: mingw-w64-croc
+  binname: mingw-w64-clang-aarch64-croc
+  visiblename: mingw-w64-clang-aarch64-croc
+  version: 11.6.5
+  origversion: 11.6.5-1
+  status: newest
+  summary: Easily and securely send things from one computer to another. (mingw-w64)
+  licenses:
+    - spdx:MIT
 - repo: fedora_39
   subrepo: release
   srcname: golang-github-schollz-croc
@@ -614,6 +613,18 @@
     - MIT
   categories:
     - Unspecified
+- repo: pkgsrc_current
+  srcname: net/croc
+  binname: croc
+  visiblename: net/croc
+  version: 11.3.2
+  origversion: 11.3.2nb5
+  status: outdated
+  summary: Fast, simple, and secure file transfer between any two computers
+  maintainers:
+    - drixter@e-utp.net
+  categories:
+    - net
 - repo: fedora_44
   subrepo: release
   srcname: golang-github-schollz-croc
@@ -768,16 +779,6 @@
   srcname: mingw-w64-croc
   binname: mingw-w64-clang-x86_64-croc
   visiblename: mingw-w64-clang-x86_64-croc
-  version: 11.6.5
-  origversion: 11.6.5-1
-  status: newest
-  summary: Easily and securely send things from one computer to another. (mingw-w64)
-  licenses:
-    - spdx:MIT
-- repo: msys2_clangarm64
-  srcname: mingw-w64-croc
-  binname: mingw-w64-clang-aarch64-croc
-  visiblename: mingw-w64-clang-aarch64-croc
   version: 11.6.5
   origversion: 11.6.5-1
   status: newest
@@ -954,18 +955,6 @@
     - drixter@e-utp.net
   categories:
     - net
-- repo: pkgsrc_current
-  srcname: net/croc
-  binname: croc
-  visiblename: net/croc
-  version: 11.3.2
-  origversion: 11.3.2nb5
-  status: outdated
-  summary: Fast, simple, and secure file transfer between any two computers
-  maintainers:
-    - drixter@e-utp.net
-  categories:
-    - net
 - repo: scoop
   subrepo: main
   binname: croc
@@ -1014,6 +1003,17 @@
   licenses:
     - MIT
 - repo: stalix
+  srcname: bin/croc
+  binname: bin/croc
+  visiblename: bin/croc
+  version: 11.6.5
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
   srcname: bin/croc
   binname: bin/croc
   visiblename: bin/croc
