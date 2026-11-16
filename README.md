@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,939 · **Forks**: 1,655 · **Open issues**: 641 · **Contributors**: 156
+- **Stars**: 40,948 · **Forks**: 1,656 · **Open issues**: 641 · **Contributors**: 156
 
 ## Totals (cumulative)
 
-- **Releases**: 232 · **Merged PRs**: 486 · **Open PRs**: 2 · **Closed issues**: 639 · **Open issues**: 2 · **Commits**: 2596
+- **Releases**: 232 · **Merged PRs**: 486 · **Open PRs**: 3 · **Closed issues**: 639 · **Open issues**: 2 · **Commits**: 2596
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 7 | 39 | 2 | 7 | 1 | 69 |
-| last60d | 2026-09-16 | 8 | 59 | 2 | 9 | 1 | 93 |
-| 90d | 2026-08-17 | 28 | 117 | 2 | 24 | 2 | 219 |
-| last180d | 2026-05-19 | 48 | 194 | 2 | 66 | 2 | 366 |
-| 360d | 2025-11-20 | 53 | 223 | 2 | 88 | 2 | 401 |
-| last720d | 2024-11-25 | 65 | 262 | 2 | 140 | 2 | 553 |
+| 30d | 2026-10-17 | 7 | 34 | 3 | 7 | 1 | 50 |
+| last60d | 2026-09-17 | 8 | 59 | 3 | 9 | 1 | 89 |
+| 90d | 2026-08-18 | 27 | 113 | 3 | 20 | 2 | 170 |
+| last180d | 2026-05-20 | 48 | 191 | 3 | 65 | 2 | 363 |
+| 360d | 2025-11-21 | 52 | 221 | 3 | 88 | 2 | 394 |
+| last720d | 2024-11-26 | 65 | 262 | 3 | 140 | 2 | 553 |
 
 ## Release assets
 
@@ -106,13 +106,13 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **84** distros on [repology.org](https://repology.org/project/croc). **14** are ✅ on the latest upstream release, **66** are ⚠️ on an older version.
+Reported by **84** distros on [repology.org](https://repology.org/project/croc). **16** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `11.6.5` | ✅ latest |
 | Homebrew | `11.6.5` | ✅ latest |
-| Nix unstable | `11.5.5` | ⚠️ outdated |
+| Nix unstable | `11.6.5` | ✅ latest |
 | Void | `10.4.14` | ⚠️ outdated |
 | Alpine edge | `11.5.4` | ⚠️ outdated |
 
@@ -125,4 +125,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T06:31:46Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T06:32:43Z._
