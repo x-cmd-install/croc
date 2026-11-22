@@ -1,34 +1,14 @@
-- repo: chocolatey
-  binname: croc
-  visiblename: croc
-  version: 11.6.5
-  origversion: null
-  status: outdated
-  summary: "Easily and securely send things from one computer to another \U0001F40A \U0001F4E6"
 - repo: stalix
   srcname: bin/croc
   binname: bin/croc
   visiblename: bin/croc
-  version: 11.6.5
+  version: 11.6.6
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: alpine_3_18
-  subrepo: community
-  srcname: croc
-  binname: croc-zsh-completion
-  visiblename: croc-zsh-completion
-  version: 9.6.4
-  origversion: 9.6.4-r8
-  status: outdated
-  summary: Zsh completions for croc
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT
 - repo: aerynos
   srcname: croc
   visiblename: croc
@@ -77,6 +57,19 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: croc
+  binname: croc-zsh-completion
+  visiblename: croc-zsh-completion
+  version: 9.6.4
+  origversion: 9.6.4-r8
+  status: outdated
+  summary: Zsh completions for croc
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
 - repo: alpine_3_19
   subrepo: community
   srcname: croc
@@ -103,6 +96,17 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
+- repo: stalix_dev
+  srcname: bin/croc
+  binname: bin/croc
+  visiblename: bin/croc
+  version: 11.6.6
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alpine_3_19
   subrepo: community
   srcname: croc
@@ -207,17 +211,6 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
-  srcname: croc
-  binname: croc-man
-  visiblename: croc-man
-  version: 11.5.5
-  origversion: 11.5.5-r1
-  status: outdated
-  summary: File transfer tool (manual pages)
-  licenses:
-    - MIT
 - repo: alpine_3_22
   subrepo: community
   srcname: croc
@@ -244,6 +237,16 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
+- repo: termux
+  srcname: croc
+  binname: croc
+  visiblename: croc
+  version: 11.6.6
+  origversion: 1:11.6.6
+  status: newest
+  summary: Easily and securely send things from one computer to another
+  maintainers:
+    - termux@github
 - repo: alpine_3_23
   subrepo: community
   srcname: croc
@@ -346,17 +349,6 @@
   summary: Zsh completions for croc
   maintainers:
     - aklitzing@gmail.com
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: croc
-  binname: croc-zshcomp
-  visiblename: croc-zshcomp
-  version: 11.5.5
-  origversion: 11.5.5-r1
-  status: outdated
-  summary: File transfer tool (zsh completions)
   licenses:
     - MIT
 - repo: alpine_edge
@@ -473,9 +465,9 @@
   srcname: croc
   binname: croc
   visiblename: croc
-  version: 11.6.5
-  origversion: 1:11.6.5-1
-  status: outdated
+  version: 11.6.6
+  origversion: 1:11.6.6-1
+  status: newest
   summary: Easily and securely send things from one computer to another.
   licenses:
     - MIT
@@ -524,6 +516,58 @@
   summary: File transfer tool (documentation)
   licenses:
     - MIT
+- repo: chimera
+  subrepo: user
+  srcname: croc
+  binname: croc-man
+  visiblename: croc-man
+  version: 11.5.5
+  origversion: 11.5.5-r1
+  status: outdated
+  summary: File transfer tool (manual pages)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: croc
+  binname: croc-zshcomp
+  visiblename: croc-zshcomp
+  version: 11.5.5
+  origversion: 11.5.5-r1
+  status: outdated
+  summary: File transfer tool (zsh completions)
+  licenses:
+    - MIT
+- repo: chocolatey
+  binname: croc
+  visiblename: croc
+  version: 11.6.5
+  origversion: null
+  status: outdated
+  summary: "Easily and securely send things from one computer to another \U0001F40A \U0001F4E6"
+- repo: t2
+  srcname: croc
+  visiblename: croc
+  version: 11.6.5
+  origversion: null
+  status: outdated
+  summary: Easily and securely send things from one computer to another
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/base
+- repo: msys2_ucrt64
+  srcname: mingw-w64-croc
+  binname: mingw-w64-ucrt-x86_64-croc
+  visiblename: mingw-w64-ucrt-x86_64-croc
+  version: 11.6.5
+  origversion: 11.6.5-1
+  status: outdated
+  summary: Easily and securely send things from one computer to another. (mingw-w64)
+  licenses:
+    - spdx:MIT
 - repo: fedora_39
   subrepo: release
   srcname: golang-github-schollz-croc
@@ -721,9 +765,9 @@
   srcname: net/croc
   binname: croc
   visiblename: croc
-  version: 11.6.5
+  version: 11.6.6
   origversion: null
-  status: outdated
+  status: newest
   summary: Easily and securely send things from one computer to another
   maintainers:
     - herbygillot@github
@@ -778,16 +822,6 @@
   srcname: mingw-w64-croc
   binname: mingw-w64-clang-aarch64-croc
   visiblename: mingw-w64-clang-aarch64-croc
-  version: 11.6.5
-  origversion: 11.6.5-1
-  status: outdated
-  summary: Easily and securely send things from one computer to another. (mingw-w64)
-  licenses:
-    - spdx:MIT
-- repo: msys2_ucrt64
-  srcname: mingw-w64-croc
-  binname: mingw-w64-ucrt-x86_64-croc
-  visiblename: mingw-w64-ucrt-x86_64-croc
   version: 11.6.5
   origversion: 11.6.5-1
   status: outdated
@@ -985,9 +1019,9 @@
   subrepo: main
   binname: croc
   visiblename: croc
-  version: 11.6.5
+  version: 11.6.6
   origversion: null
-  status: outdated
+  status: newest
   licenses:
     - MIT
 - repo: solus
@@ -1028,40 +1062,6 @@
     - zzzoom@spack
   licenses:
     - MIT
-- repo: stalix_dev
-  srcname: bin/croc
-  binname: bin/croc
-  visiblename: bin/croc
-  version: 11.6.6
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: t2
-  srcname: croc
-  visiblename: croc
-  version: 11.6.5
-  origversion: null
-  status: outdated
-  summary: Easily and securely send things from one computer to another
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - MIT
-  categories:
-    - extra/base
-- repo: termux
-  srcname: croc
-  binname: croc
-  visiblename: croc
-  version: 11.6.5
-  origversion: 1:11.6.5
-  status: outdated
-  summary: Easily and securely send things from one computer to another
-  maintainers:
-    - termux@github
 - repo: void_x86_64
   subrepo: x86_64
   srcname: croc
