@@ -1,14 +1,26 @@
-- repo: stalix
-  srcname: bin/croc
-  binname: bin/croc
-  visiblename: bin/croc
-  version: 11.6.6
-  origversion: null
-  status: newest
+- repo: aosc
+  srcname: app-utils/croc
+  binname: croc
+  visiblename: croc
+  version: 10.4.3
+  origversion: 10.4.3-3
+  status: outdated
+  summary: Utility for Cross-NAT file transfers
   maintainers:
-    - anton@samokhvalov.xyz
+    - fallback-mnt-aosc@repology
   categories:
-    - bin
+    - utils
+- repo: arch
+  subrepo: extra
+  srcname: croc
+  binname: croc
+  visiblename: croc
+  version: 11.6.6
+  origversion: 1:11.6.6-1
+  status: newest
+  summary: Easily and securely send things from one computer to another.
+  licenses:
+    - MIT
 - repo: aerynos
   srcname: croc
   visiblename: croc
@@ -96,17 +108,6 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
-- repo: stalix_dev
-  srcname: bin/croc
-  binname: bin/croc
-  visiblename: bin/croc
-  version: 11.6.6
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: alpine_3_19
   subrepo: community
   srcname: croc
@@ -237,16 +238,6 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
-- repo: termux
-  srcname: croc
-  binname: croc
-  visiblename: croc
-  version: 11.6.6
-  origversion: 1:11.6.6
-  status: newest
-  summary: Easily and securely send things from one computer to another
-  maintainers:
-    - termux@github
 - repo: alpine_3_23
   subrepo: community
   srcname: croc
@@ -448,29 +439,6 @@
     - MIT
   categories:
     - System/Servers
-- repo: aosc
-  srcname: app-utils/croc
-  binname: croc
-  visiblename: croc
-  version: 10.4.3
-  origversion: 10.4.3-3
-  status: outdated
-  summary: Utility for Cross-NAT file transfers
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
-- repo: arch
-  subrepo: extra
-  srcname: croc
-  binname: croc
-  visiblename: croc
-  version: 11.6.6
-  origversion: 1:11.6.6-1
-  status: newest
-  summary: Easily and securely send things from one computer to another.
-  licenses:
-    - MIT
 - repo: aur
   srcname: croc-git
   binname: croc-git
@@ -541,33 +509,10 @@
 - repo: chocolatey
   binname: croc
   visiblename: croc
-  version: 11.6.5
+  version: 11.6.6
   origversion: null
-  status: outdated
+  status: newest
   summary: "Easily and securely send things from one computer to another \U0001F40A \U0001F4E6"
-- repo: t2
-  srcname: croc
-  visiblename: croc
-  version: 11.6.5
-  origversion: null
-  status: outdated
-  summary: Easily and securely send things from one computer to another
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - MIT
-  categories:
-    - extra/base
-- repo: msys2_ucrt64
-  srcname: mingw-w64-croc
-  binname: mingw-w64-ucrt-x86_64-croc
-  visiblename: mingw-w64-ucrt-x86_64-croc
-  version: 11.6.5
-  origversion: 11.6.5-1
-  status: outdated
-  summary: Easily and securely send things from one computer to another. (mingw-w64)
-  licenses:
-    - spdx:MIT
 - repo: fedora_39
   subrepo: release
   srcname: golang-github-schollz-croc
@@ -802,9 +747,9 @@
   srcname: croc
   binname: croc
   visiblename: croc
-  version: 11.6.5
-  origversion: 1:11.6.5-1
-  status: outdated
+  version: 11.6.6
+  origversion: 1:11.6.6-1
+  status: newest
   summary: Easily and securely send things from one computer to another.
   licenses:
     - MIT
@@ -822,6 +767,16 @@
   srcname: mingw-w64-croc
   binname: mingw-w64-clang-aarch64-croc
   visiblename: mingw-w64-clang-aarch64-croc
+  version: 11.6.5
+  origversion: 11.6.5-1
+  status: outdated
+  summary: Easily and securely send things from one computer to another. (mingw-w64)
+  licenses:
+    - spdx:MIT
+- repo: msys2_ucrt64
+  srcname: mingw-w64-croc
+  binname: mingw-w64-ucrt-x86_64-croc
+  visiblename: mingw-w64-ucrt-x86_64-croc
   version: 11.6.5
   origversion: 11.6.5-1
   status: outdated
@@ -1062,6 +1017,51 @@
     - zzzoom@spack
   licenses:
     - MIT
+- repo: stalix
+  srcname: bin/croc
+  binname: bin/croc
+  visiblename: bin/croc
+  version: 11.6.6
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/croc
+  binname: bin/croc
+  visiblename: bin/croc
+  version: 11.6.6
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: t2
+  srcname: croc
+  visiblename: croc
+  version: 11.6.6
+  origversion: null
+  status: newest
+  summary: Easily and securely send things from one computer to another
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/base
+- repo: termux
+  srcname: croc
+  binname: croc
+  visiblename: croc
+  version: 11.6.6
+  origversion: 1:11.6.6
+  status: newest
+  summary: Easily and securely send things from one computer to another
+  maintainers:
+    - termux@github
 - repo: void_x86_64
   subrepo: x86_64
   srcname: croc
