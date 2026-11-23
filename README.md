@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,991 · **Forks**: 1,662 · **Open issues**: 643 · **Contributors**: 157
+- **Stars**: 40,997 · **Forks**: 1,661 · **Open issues**: 643 · **Contributors**: 157
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 7 | 31 | 0 | 8 | 0 | 60 |
-| last60d | 2026-09-23 | 9 | 66 | 0 | 12 | 0 | 99 |
-| 90d | 2026-08-24 | 21 | 104 | 0 | 18 | 0 | 180 |
-| last180d | 2026-05-26 | 49 | 199 | 0 | 67 | 1 | 373 |
-| 360d | 2025-11-27 | 53 | 229 | 0 | 88 | 1 | 404 |
-| last720d | 2024-12-02 | 65 | 271 | 0 | 141 | 1 | 562 |
+| 30d | 2026-10-24 | 7 | 31 | 0 | 8 | 0 | 57 |
+| last60d | 2026-09-24 | 9 | 66 | 0 | 12 | 0 | 92 |
+| 90d | 2026-08-25 | 20 | 104 | 0 | 18 | 0 | 141 |
+| last180d | 2026-05-27 | 49 | 199 | 0 | 67 | 1 | 371 |
+| 360d | 2025-11-28 | 53 | 229 | 0 | 88 | 1 | 404 |
+| last720d | 2024-12-03 | 65 | 271 | 0 | 141 | 1 | 562 |
 
 ## Release assets
 
@@ -106,7 +106,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **85** distros on [repology.org](https://repology.org/project/croc). **7** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
+Reported by **85** distros on [repology.org](https://repology.org/project/croc). **10** are ✅ on the latest upstream release, **71** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -125,4 +125,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T06:38:55Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T07:43:09Z._
