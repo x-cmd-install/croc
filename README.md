@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 41,044 · **Forks**: 1,661 · **Open issues**: 643 · **Contributors**: 157
+- **Stars**: 41,054 · **Forks**: 1,665 · **Open issues**: 643 · **Contributors**: 158
 
 ## Totals (cumulative)
 
-- **Releases**: 233 · **Merged PRs**: 495 · **Open PRs**: 0 · **Closed issues**: 642 · **Open issues**: 1 · **Commits**: 2607
+- **Releases**: 233 · **Merged PRs**: 496 · **Open PRs**: 0 · **Closed issues**: 642 · **Open issues**: 1 · **Commits**: 2607
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 7 | 31 | 0 | 7 | 0 | 57 |
-| last60d | 2026-09-26 | 9 | 62 | 0 | 12 | 0 | 92 |
-| 90d | 2026-08-27 | 18 | 103 | 0 | 18 | 0 | 141 |
-| last180d | 2026-05-29 | 49 | 199 | 0 | 67 | 1 | 371 |
-| 360d | 2025-11-30 | 53 | 229 | 0 | 88 | 1 | 404 |
-| last720d | 2024-12-05 | 65 | 271 | 0 | 141 | 1 | 562 |
+| 30d | 2026-10-27 | 7 | 30 | 0 | 7 | 0 | 0 |
+| last60d | 2026-09-27 | 8 | 61 | 0 | 12 | 0 | 0 |
+| 90d | 2026-08-28 | 18 | 96 | 0 | 16 | 0 | 0 |
+| last180d | 2026-05-30 | 49 | 199 | 0 | 67 | 1 | 0 |
+| 360d | 2025-12-01 | 53 | 229 | 0 | 88 | 1 | 0 |
+| last720d | 2024-12-06 | 65 | 271 | 0 | 140 | 1 | 562 |
 
 ## Release assets
 
@@ -104,18 +104,6 @@ Lowest-scoring checks:
 | [croc_v11.6.6_Windows-64bit.zip](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_Windows-64bit.zip) | 12.4 MiB | `native/win/x64` |
 | [croc_v11.6.6_Windows-ARM64.zip](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_Windows-ARM64.zip) | 10.9 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **85** distros on [repology.org](https://repology.org/project/croc). **14** are ✅ on the latest upstream release, **67** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `11.6.6` | ✅ latest |
-| Homebrew | `11.6.6` | ✅ latest |
-| Nix unstable | `11.6.5` | ⚠️ outdated |
-| Void | `10.4.14` | ⚠️ outdated |
-| Alpine edge | `11.5.4` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `croc` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -125,4 +113,4 @@ Install metadata for croc lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T08:28:01Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:19:40Z._
