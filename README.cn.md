@@ -14,11 +14,11 @@ x install croc
 
 ## 代码洞察
 
-合计: **92,958** 行代码（覆盖前 5 种语言、共 **345** 个文件）。
+合计: **93,025** 行代码（覆盖前 5 种语言、共 **345** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 51,974 | 2,549 | 4,770 | 239 |
+| Go | 52,041 | 2,551 | 4,775 | 239 |
 | Json | 14,384 | 0 | 0 | 20 |
 | TypeScript | 14,325 | 95 | 793 | 69 |
 | Tsx | 4,934 | 8 | 306 | 16 |
@@ -42,67 +42,67 @@ x install croc
 
 ## 发布
 
-- **最新版本**: `v11.6.6` (2026-11-21)
-- **最近提交**: 2026-11-21
+- **最新版本**: `v11.6.7` (2026-11-26)
+- **最近提交**: 2026-11-26
 - **Release 含资产**: 34 个
 
 ## 流行度
 
-- **Star**: 41,054 · **Fork**: 1,665 · **开放 issue**: 643 · **贡献者**: 158
+- **Star**: 41,062 · **Fork**: 1,665 · **开放 issue**: 644 · **贡献者**: 158
 
 ## 累计统计
 
-- **发布数**: 233 · **已合并 PR**: 496 · **开放 PR**: 0 · **已关闭 issue**: 642 · **开放 issue**: 1 · **提交数**: 2607
+- **发布数**: 234 · **已合并 PR**: 498 · **开放 PR**: 1 · **已关闭 issue**: 642 · **开放 issue**: 2 · **提交数**: 2610
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 7 | 30 | 0 | 7 | 0 | 0 |
-| last60d | 2026-09-27 | 8 | 61 | 0 | 12 | 0 | 0 |
-| 90d | 2026-08-28 | 18 | 96 | 0 | 16 | 0 | 0 |
-| last180d | 2026-05-30 | 49 | 199 | 0 | 67 | 1 | 0 |
-| 360d | 2025-12-01 | 53 | 229 | 0 | 88 | 1 | 0 |
-| last720d | 2024-12-06 | 65 | 271 | 0 | 140 | 1 | 562 |
+| 30d | 2026-10-28 | 8 | 32 | 1 | 7 | 1 | 0 |
+| last60d | 2026-09-28 | 9 | 63 | 1 | 12 | 1 | 0 |
+| 90d | 2026-08-29 | 17 | 92 | 1 | 15 | 1 | 0 |
+| last180d | 2026-05-31 | 50 | 201 | 1 | 66 | 2 | 0 |
+| 360d | 2025-12-02 | 54 | 231 | 1 | 88 | 2 | 0 |
+| last720d | 2024-12-07 | 66 | 273 | 1 | 140 | 2 | 565 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [croc-11.6.6-1.aarch64.rpm](https://github.com/schollz/croc/releases/download/v11.6.6/croc-11.6.6-1.aarch64.rpm) | 8.3 MiB | `runtime/rpm/aarch64` |
-| [croc-11.6.6-1.armv5tel.rpm](https://github.com/schollz/croc/releases/download/v11.6.6/croc-11.6.6-1.armv5tel.rpm) | 8.8 MiB | `other` |
-| [croc-11.6.6-1.armv7hl.rpm](https://github.com/schollz/croc/releases/download/v11.6.6/croc-11.6.6-1.armv7hl.rpm) | 8.7 MiB | `runtime/rpm/armv7hl` |
-| [croc-11.6.6-1.i386.rpm](https://github.com/schollz/croc/releases/download/v11.6.6/croc-11.6.6-1.i386.rpm) | 8.8 MiB | `other` |
-| [croc-11.6.6-1.riscv64.rpm](https://github.com/schollz/croc/releases/download/v11.6.6/croc-11.6.6-1.riscv64.rpm) | 8.7 MiB | `other` |
-| [croc-11.6.6-1.x86_64.rpm](https://github.com/schollz/croc/releases/download/v11.6.6/croc-11.6.6-1.x86_64.rpm) | 9.2 MiB | `runtime/rpm/x86_64` |
-| [croc-web_v11.6.6_Linux-amd64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc-web_v11.6.6_Linux-amd64.tar.gz) | 7.7 MiB | `native/linux/x64` |
-| [croc_11.6.6-1_amd64.deb](https://github.com/schollz/croc/releases/download/v11.6.6/croc_11.6.6-1_amd64.deb) | 9.2 MiB | `runtime/deb/amd64` |
-| [croc_11.6.6-1_arm64.deb](https://github.com/schollz/croc/releases/download/v11.6.6/croc_11.6.6-1_arm64.deb) | 8.3 MiB | `runtime/deb/arm64` |
-| [croc_11.6.6-1_armel.deb](https://github.com/schollz/croc/releases/download/v11.6.6/croc_11.6.6-1_armel.deb) | 8.8 MiB | `other` |
-| [croc_11.6.6-1_armhf.deb](https://github.com/schollz/croc/releases/download/v11.6.6/croc_11.6.6-1_armhf.deb) | 8.7 MiB | `runtime/deb/armhf` |
-| [croc_11.6.6-1_i386.deb](https://github.com/schollz/croc/releases/download/v11.6.6/croc_11.6.6-1_i386.deb) | 8.8 MiB | `runtime/deb/i386` |
-| [croc_11.6.6-1_riscv64.deb](https://github.com/schollz/croc/releases/download/v11.6.6/croc_11.6.6-1_riscv64.deb) | 8.7 MiB | `runtime/deb/riscv64` |
-| [croc_v11.6.6_checksums.txt](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_checksums.txt) | 3.1 KiB | `other` |
-| [croc_v11.6.6_DragonFlyBSD-64bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_DragonFlyBSD-64bit.tar.gz) | 7.0 MiB | `native/unknown` |
-| [croc_v11.6.6_FreeBSD-64bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_FreeBSD-64bit.tar.gz) | 11.8 MiB | `native/unknown` |
-| [croc_v11.6.6_FreeBSD-ARM64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_FreeBSD-ARM64.tar.gz) | 10.6 MiB | `native/linux/arm64` |
-| [croc_v11.6.6_Linux-32bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_Linux-32bit.tar.gz) | 11.7 MiB | `native/unknown` |
-| [croc_v11.6.6_Linux-64bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_Linux-64bit.tar.gz) | 12.1 MiB | `native/unknown` |
-| [croc_v11.6.6_Linux-ARM.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_Linux-ARM.tar.gz) | 11.6 MiB | `native/linux/arm` |
-| [croc_v11.6.6_Linux-ARM64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_Linux-ARM64.tar.gz) | 10.9 MiB | `native/linux/arm64` |
-| [croc_v11.6.6_Linux-ARMv5.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_Linux-ARMv5.tar.gz) | 11.6 MiB | `native/linux/arm` |
-| [croc_v11.6.6_Linux-RISCV64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_Linux-RISCV64.tar.gz) | 11.4 MiB | `native/linux/riscv64` |
-| [croc_v11.6.6_macOS-64bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_macOS-64bit.tar.gz) | 12.0 MiB | `native/darwin/x64` |
-| [croc_v11.6.6_macOS-ARM64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_macOS-ARM64.tar.gz) | 11.1 MiB | `native/darwin/arm64` |
-| [croc_v11.6.6_NetBSD-32bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_NetBSD-32bit.tar.gz) | 6.8 MiB | `native/unknown` |
-| [croc_v11.6.6_NetBSD-64bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_NetBSD-64bit.tar.gz) | 7.0 MiB | `native/unknown` |
-| [croc_v11.6.6_NetBSD-ARM64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_NetBSD-ARM64.tar.gz) | 6.3 MiB | `native/linux/arm64` |
-| [croc_v11.6.6_OpenBSD-64bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_OpenBSD-64bit.tar.gz) | 11.7 MiB | `native/unknown` |
-| [croc_v11.6.6_OpenBSD-ARM64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_OpenBSD-ARM64.tar.gz) | 10.6 MiB | `native/linux/arm64` |
-| [croc_v11.6.6_src.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_src.tar.gz) | 12.9 MiB | `native/unknown` |
-| [croc_v11.6.6_Windows-32bit.zip](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_Windows-32bit.zip) | 12.0 MiB | `native/win/x64` |
-| [croc_v11.6.6_Windows-64bit.zip](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_Windows-64bit.zip) | 12.4 MiB | `native/win/x64` |
-| [croc_v11.6.6_Windows-ARM64.zip](https://github.com/schollz/croc/releases/download/v11.6.6/croc_v11.6.6_Windows-ARM64.zip) | 10.9 MiB | `native/win/arm64` |
+| [croc-11.6.7-1.aarch64.rpm](https://github.com/schollz/croc/releases/download/v11.6.7/croc-11.6.7-1.aarch64.rpm) | 8.4 MiB | `runtime/rpm/aarch64` |
+| [croc-11.6.7-1.armv5tel.rpm](https://github.com/schollz/croc/releases/download/v11.6.7/croc-11.6.7-1.armv5tel.rpm) | 8.8 MiB | `other` |
+| [croc-11.6.7-1.armv7hl.rpm](https://github.com/schollz/croc/releases/download/v11.6.7/croc-11.6.7-1.armv7hl.rpm) | 8.8 MiB | `runtime/rpm/armv7hl` |
+| [croc-11.6.7-1.i386.rpm](https://github.com/schollz/croc/releases/download/v11.6.7/croc-11.6.7-1.i386.rpm) | 8.9 MiB | `other` |
+| [croc-11.6.7-1.riscv64.rpm](https://github.com/schollz/croc/releases/download/v11.6.7/croc-11.6.7-1.riscv64.rpm) | 8.7 MiB | `other` |
+| [croc-11.6.7-1.x86_64.rpm](https://github.com/schollz/croc/releases/download/v11.6.7/croc-11.6.7-1.x86_64.rpm) | 9.2 MiB | `runtime/rpm/x86_64` |
+| [croc-web_v11.6.7_Linux-amd64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc-web_v11.6.7_Linux-amd64.tar.gz) | 7.7 MiB | `native/linux/x64` |
+| [croc_11.6.7-1_amd64.deb](https://github.com/schollz/croc/releases/download/v11.6.7/croc_11.6.7-1_amd64.deb) | 9.2 MiB | `runtime/deb/amd64` |
+| [croc_11.6.7-1_arm64.deb](https://github.com/schollz/croc/releases/download/v11.6.7/croc_11.6.7-1_arm64.deb) | 8.4 MiB | `runtime/deb/arm64` |
+| [croc_11.6.7-1_armel.deb](https://github.com/schollz/croc/releases/download/v11.6.7/croc_11.6.7-1_armel.deb) | 8.8 MiB | `other` |
+| [croc_11.6.7-1_armhf.deb](https://github.com/schollz/croc/releases/download/v11.6.7/croc_11.6.7-1_armhf.deb) | 8.8 MiB | `runtime/deb/armhf` |
+| [croc_11.6.7-1_i386.deb](https://github.com/schollz/croc/releases/download/v11.6.7/croc_11.6.7-1_i386.deb) | 8.9 MiB | `runtime/deb/i386` |
+| [croc_11.6.7-1_riscv64.deb](https://github.com/schollz/croc/releases/download/v11.6.7/croc_11.6.7-1_riscv64.deb) | 8.7 MiB | `runtime/deb/riscv64` |
+| [croc_v11.6.7_checksums.txt](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_checksums.txt) | 3.1 KiB | `other` |
+| [croc_v11.6.7_DragonFlyBSD-64bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_DragonFlyBSD-64bit.tar.gz) | 7.0 MiB | `native/unknown` |
+| [croc_v11.6.7_FreeBSD-64bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_FreeBSD-64bit.tar.gz) | 11.8 MiB | `native/unknown` |
+| [croc_v11.6.7_FreeBSD-ARM64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_FreeBSD-ARM64.tar.gz) | 10.6 MiB | `native/linux/arm64` |
+| [croc_v11.6.7_Linux-32bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_Linux-32bit.tar.gz) | 11.8 MiB | `native/unknown` |
+| [croc_v11.6.7_Linux-64bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_Linux-64bit.tar.gz) | 12.2 MiB | `native/unknown` |
+| [croc_v11.6.7_Linux-ARM.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_Linux-ARM.tar.gz) | 11.6 MiB | `native/linux/arm` |
+| [croc_v11.6.7_Linux-ARM64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_Linux-ARM64.tar.gz) | 11.0 MiB | `native/linux/arm64` |
+| [croc_v11.6.7_Linux-ARMv5.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_Linux-ARMv5.tar.gz) | 11.6 MiB | `native/linux/arm` |
+| [croc_v11.6.7_Linux-RISCV64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_Linux-RISCV64.tar.gz) | 11.4 MiB | `native/linux/riscv64` |
+| [croc_v11.6.7_macOS-64bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_macOS-64bit.tar.gz) | 12.1 MiB | `native/darwin/x64` |
+| [croc_v11.6.7_macOS-ARM64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_macOS-ARM64.tar.gz) | 11.1 MiB | `native/darwin/arm64` |
+| [croc_v11.6.7_NetBSD-32bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_NetBSD-32bit.tar.gz) | 6.8 MiB | `native/unknown` |
+| [croc_v11.6.7_NetBSD-64bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_NetBSD-64bit.tar.gz) | 7.0 MiB | `native/unknown` |
+| [croc_v11.6.7_NetBSD-ARM64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_NetBSD-ARM64.tar.gz) | 6.3 MiB | `native/linux/arm64` |
+| [croc_v11.6.7_OpenBSD-64bit.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_OpenBSD-64bit.tar.gz) | 11.8 MiB | `native/unknown` |
+| [croc_v11.6.7_OpenBSD-ARM64.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_OpenBSD-ARM64.tar.gz) | 10.6 MiB | `native/linux/arm64` |
+| [croc_v11.6.7_src.tar.gz](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_src.tar.gz) | 13.0 MiB | `native/unknown` |
+| [croc_v11.6.7_Windows-32bit.zip](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_Windows-32bit.zip) | 12.0 MiB | `native/win/x64` |
+| [croc_v11.6.7_Windows-64bit.zip](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_Windows-64bit.zip) | 12.5 MiB | `native/win/x64` |
+| [croc_v11.6.7_Windows-ARM64.zip](https://github.com/schollz/croc/releases/download/v11.6.7/croc_v11.6.7_Windows-ARM64.zip) | 10.9 MiB | `native/win/arm64` |
 
 ## 改进这些数据
 
@@ -113,4 +113,4 @@ croc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261126.yml` · 2026-11-26T08:19:41Z._
+_数据快照: `data/card/261127.yml` · 2026-11-27T08:24:10Z._
